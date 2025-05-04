@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "R00WqVa0KdlIswRipeFlAz5w6SFekE3GOxhPenhJb2I=",
+  "Source": "DemoConverter",
+  "BasePath": "_content/DemoConverter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoConverter\\wwwroot",
+      "Source": "DemoConverter",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
