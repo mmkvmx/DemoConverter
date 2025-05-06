@@ -3,10 +3,13 @@ using DemoConverter.Services;
 var builder = WebApplication.CreateBuilder(args);
 // Добавление сервисов в контейнер
 builder.Services.AddScoped<IZipService, ZipService>(); // Регистрация сервиса IZipService для работы с архивом
-
+builder.Services.AddScoped<ISvgService, SvgService>(); // Регистрация сервиса обработки svg
 // Add services to the container.
 
+// Добавление логирования
+builder.Services.AddLogging();
 builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 

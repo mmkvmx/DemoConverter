@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using DemoConverter.Models;
 using DemoConverter.Services;
 using System.Runtime.CompilerServices;
+using Microsoft.Extensions.Caching.Memory;
+using System.Xml;
+using System.Text.Json;
+using Microsoft.Extensions.Logging;
 
 namespace DemoConverter.Controllers
 {
@@ -10,11 +14,19 @@ namespace DemoConverter.Controllers
     [ApiController]
     public class MainController : ControllerBase
     {
+        private readonly ILogger<MainController> _logger;
+        private readonly IMemoryCache _cache;
         readonly IZipService _zipService;
-        public MainController(IZipService zipService)
+        readonly ISvgService _svgService;
+
+        public MainController(IZipService zipService, ISvgService svgService, IMemoryCache cache, ILogger<MainController> logger)
         {
             _zipService = zipService;
+            _svgService = svgService;
+            _cache = cache;
+            _logger = logger;
         }
+
         [HttpPost("upload")]
         public async Task<IActionResult> Upload([FromForm] IFormFile file)
         {
@@ -26,6 +38,11 @@ namespace DemoConverter.Controllers
             try
             {
                 venueData = await _zipService.ExtractZipAsync(file);
+                var cacheKey = Guid.NewGuid().ToString();
+
+                _cache.Set(cacheKey, venueData, TimeSpan.FromMinutes(20));
+
+                return Ok(new { cacheKey, message = "Файл загружен. Готов к конвертации." });
             }
             catch (ArgumentException ex)
             {
@@ -39,14 +56,34 @@ namespace DemoConverter.Controllers
             {
                 return StatusCode(500, "Внутренняя ошибка сервера: " + ex.Message);
             }
+        }
+        [HttpPost("convert")]
+        public IActionResult Convert([FromQuery] string cacheKey)
+        {
 
-            // 2. Обрабатываем данные
+            if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
+                return BadRequest("Данные не найдены или устарели");
+            try
+            {
+                var xmlDoc = new XmlDocument();
+                xmlDoc.LoadXml(venueData.Svg);
+                var sectors = JsonSerializer.Deserialize<List<SbSector>>(venueData.Sectors);
+                var places = JsonSerializer.Deserialize<List<SbPlace>>(venueData.Places);
 
-            // 3. Создаём архив
-            byte[] resultZip = await _zipService.CreateZipAsync(venueData);
+                _svgService.ClearSvgXmlDoc(xmlDoc, clearCss: true);
+                _svgService.MarkSectors(xmlDoc, sectors);
+                _svgService.MarkPlaces(xmlDoc, places);
 
-            // 4. Отдаём как файл
-            return File(resultZip, "application/zip", "converted.zip");
+                var svgContent = xmlDoc.OuterXml;
+                var svgBytes = System.Text.Encoding.UTF8.GetBytes(svgContent);
+                var fileName = $"converted_{DateTime.Now:yyyyMMddHHmmss}.svg";
+
+                return File(svgBytes, "image/svg+xml", fileName);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Ошибка при конвертации: " + ex.Message); 
+            }
         }
     }
 }

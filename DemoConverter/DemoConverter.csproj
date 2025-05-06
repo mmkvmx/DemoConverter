@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\files\converted\extracted\" />
-    <Folder Include="wwwroot\files\original\extracted\" />
-    <Folder Include="Новая папка\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
