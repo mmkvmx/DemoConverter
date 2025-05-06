@@ -67,10 +67,9 @@ namespace DemoConverter.Controllers
             {
                 var xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(venueData.Svg);
-                var sectors = JsonSerializer.Deserialize<List<SbSector>>(venueData.Sectors);
-                var places = JsonSerializer.Deserialize<List<SbPlace>>(venueData.Places);
+                var sectors = venueData.SectorsList;
+                var places = venueData.PlacesList;
 
-                _svgService.ClearSvgXmlDoc(xmlDoc, clearCss: true);
                 _svgService.MarkSectors(xmlDoc, sectors);
                 _svgService.MarkPlaces(xmlDoc, places);
 
@@ -78,7 +77,7 @@ namespace DemoConverter.Controllers
                 var svgBytes = System.Text.Encoding.UTF8.GetBytes(svgContent);
                 var fileName = $"converted_{DateTime.Now:yyyyMMddHHmmss}.svg";
 
-                return File(svgBytes, "image/svg+xml", fileName);
+                return Content(svgContent, "image/svg+xml");
             }
             catch (Exception ex)
             {

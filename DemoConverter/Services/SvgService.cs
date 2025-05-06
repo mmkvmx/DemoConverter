@@ -53,7 +53,7 @@ namespace DemoConverter.Services
                         seatNode.Attributes["id"].Value = uniqueId;
                         seatNode.Attributes.Append(CreateAttribute(xDoc, "sectorAlias", sectorId.ToString()));
                         seatNode.Attributes.Append(CreateAttribute(xDoc, "row", row.HasValue ? row.ToString() : "")); // если row пустой, добавляем пустую строку
-                        seatNode.Attributes.Append(CreateAttribute(xDoc, "place", place.ToString()));
+                        seatNode.Attributes.Append(CreateAttribute(xDoc, "place", seat.ToString()));
                         seatNode.Attributes.Append(CreateAttribute(xDoc, "class", "place"));
                         existSectors.Add(sectorId);
                     }
