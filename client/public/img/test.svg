@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[]><svg version="1.0" id="svgscene" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="848.893px" height="684.469px" viewBox="0 0 848.893 684.469" style="enable-background:new 0 0 848.893 684.469;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{font-family:'Verdana';}
+	.st1{fill:#ABE5AA;stroke:#CCCCCC;}
+	.st2{fill:#92FFC0;stroke:#CCCCCC;}
+	.st3{fill:#E99999;stroke:#CCCCCC;}
+	.st4{fill:#AEAEAE;stroke:#CCCCCC;}
+	.st5{font-size:24.0001px;}
+	.st6{fill:#B1C2F5;stroke:#CCCCCC;}
+	.st7{fill:#B7CCE0;}
+	.st8{fill:#BDE2F4;stroke:#CCCCCC;}
+	.st9{fill:#F7C4F5;stroke:#CCCCCC;}
+	.st10{fill:#EFEEED;stroke:#A7A9AC;stroke-width:0.5669;stroke-miterlimit:22.9256;}
+	.st11{fill:#CCCCCC;stroke:#CCCCCC;}
+	.st12{font-size:11.9999px;}
+	.st13{font-size:9.813px;}
+	.st14{fill:#FFFFFF;}
+	.st15{fill:#DEEF8F;stroke:#CCCCCC;}
+	.st16{fill:#9C9B9B;}
+	.st17{display:inline;}
+	.st18{fill:#EA95BF;stroke:#CCCCCC;}
+	.st19{fill:#F8FAC6;stroke:#CCCCCC;}
+	.st20{fill:#F5E295;stroke:#CCCCCC;}
+	.st21{fill:#CEFB9B;stroke:#CCCCCC;}
+	.st22{fill:#D4AFF6;stroke:#CCCCCC;}
+	.st23{display:none;}
+	.st24{fill:#A2AEB6;}
+	.st25{fill:#F6FF8E;stroke:#CCCCCC;}
+	
+	.cs1 .st10{fill:#B1C2F5;}
+	.cs2 .st10{fill:#BDE2F4;}
+	.cs3 .st10{fill:#CEFB9B;}
+	.cs4 .st10{fill:#ABE5AA;}
+	.cs5 .st10{fill:#92FFC0;}
+	.cs6 .st10{fill:#DEEF8F;}
+	.cs7 .st10{fill:#F8FAC6;}
+	.cs8 .st10{fill:#F6FF8E;}
+	.cs9 .st10{fill:#F5E295;}
+	.cs10 .st10{fill:#D4AFF6;}
+	.cs11 .st10{fill:#F7C4F5;}
+	.cs12 .st10{fill:#EA95BF;}
+	.sell .st10{fill:#AEAEAE;}
+	.order .st10{fill:#E99999;}
+	.ui-selecting .st10{fill:#DBDBDB;}
+]]>
+</style>
+<g id="svgscale">
+	<g id="adds">
+		<rect x="1" class="st14" width="848.893" height="684.469" />
+		<rect x="125.867" y="112.137" class="st7" width="599.16" height="61.171" />
+		<text transform="matrix(1 0 0 1 383.7769 149.6753)" class="st14 st0 st5">С</text>
+		<text transform="matrix(1 0 0 1 400.5347 149.6753)" class="st14 st0 st5">ЦЕНА</text>
+		<text transform="matrix(1 0 0 1 420.0806 259.0161)" class="st16 st0 st12">1</text>
+		<text transform="matrix(1 0 0 1 420.0806 585.5669)" class="st16 st0 st12">1</text>
+		<text transform="matrix(1 0 0 1 427.71 585.5669)" class="st16 st0 st12">3</text>
+		<text transform="matrix(1 0 0 1 420.0806 558.354)" class="st16 st0 st12">1</text>
+		<text transform="matrix(1 0 0 1 427.71 558.354)" class="st16 st0 st12">2</text>
+		<text transform="matrix(1 0 0 1 420.0806 503.9292)" class="st16 st0 st12">1</text>
+		<text transform="matrix(1 0 0 1 427.71 503.9292)" class="st16 st0 st12">0</text>
+		<text transform="matrix(1 0 0 1 420.0806 531.1421)" class="st16 st0 st12">1</text>
+		<text transform="matrix(1 0 0 1 427.71 531.1421)" class="st16 st0 st12">1</text>
+		<text transform="matrix(1 0 0 1 420.0806 449.5034)" class="st16 st0 st12">8</text>
+		<text transform="matrix(1 0 0 1 420.0806 476.7163)" class="st16 st0 st12">9</text>
+		<text transform="matrix(1 0 0 1 420.0806 422.2915)" class="st16 st0 st12">7</text>
+		<text transform="matrix(1 0 0 1 420.0806 367.8657)" class="st16 st0 st12">5</text>
+		<text transform="matrix(1 0 0 1 420.0806 395.0786)" class="st16 st0 st12">6</text>
+		<text transform="matrix(1 0 0 1 420.0806 313.4409)" class="st16 st0 st12">3</text>
+		<text transform="matrix(1 0 0 1 420.0806 340.6538)" class="st16 st0 st12">4</text>
+		<text transform="matrix(1 0 0 1 420.0806 286.228)" class="st16 st0 st12">2</text>
+	</g>
+	<g id="seats">
+		<g id="1_7_18" sectorAlias="1" row="7" place="18" class="place">
+			<rect x="643.388" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 649.1572 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 422.2876)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_8_14" sectorAlias="1" row="8" place="14" class="place">
+			<rect x="534.541" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 540.3096 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 449.4995)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_13_17" sectorAlias="1" row="13" place="17" class="place">
+			<rect x="697.814" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 703.583 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 711.2119 585.5591)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_13_16" sectorAlias="1" row="13" place="16" class="place">
+			<rect x="670.601" y="566.852" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 676.3701 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 585.5591)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_13_15" sectorAlias="1" row="13" place="15" class="place">
+			<rect x="643.388" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 649.1572 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 585.5591)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_13_14" sectorAlias="1" row="13" place="14" class="place">
+			<rect x="616.177" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 621.9463 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 585.5591)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_13_13" sectorAlias="1" row="13" place="13" class="place">
+			<rect x="588.964" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 594.7334 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 585.5591)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_13_12" sectorAlias="1" row="13" place="12" class="place">
+			<rect x="561.753" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 567.5225 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 585.5591)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_13_11" sectorAlias="1" row="13" place="11" class="place">
+			<rect x="534.541" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 540.3096 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 585.5591)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_13_10" sectorAlias="1" row="13" place="10" class="place">
+			<rect x="507.33" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 513.0986 585.5591)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 585.5591)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_13_9" sectorAlias="1" row="13" place="9" class="place">
+			<rect x="480.117" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 485.8857 585.5591)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_13_8" sectorAlias="1" row="13" place="8" class="place">
+			<rect x="452.906" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 461.6748 585.5591)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_12_20" sectorAlias="1" row="12" place="20" class="place">
+			<rect x="697.814" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 703.583 558.3472)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 558.3472)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_12_19" sectorAlias="1" row="12" place="19" class="place">
+			<rect x="670.601" y="539.641" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 676.3701 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 558.3472)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_12_18" sectorAlias="1" row="12" place="18" class="place">
+			<rect x="643.388" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 649.1572 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 558.3472)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_12_17" sectorAlias="1" row="12" place="17" class="place">
+			<rect x="616.177" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 621.9463 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 558.3472)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_12_16" sectorAlias="1" row="12" place="16" class="place">
+			<rect x="588.964" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 594.7334 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 558.3472)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_12_15" sectorAlias="1" row="12" place="15" class="place">
+			<rect x="561.753" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 567.5225 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 558.3472)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_12_14" sectorAlias="1" row="12" place="14" class="place">
+			<rect x="534.541" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 540.3096 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 558.3472)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_12_13" sectorAlias="1" row="12" place="13" class="place">
+			<rect x="507.33" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 513.0986 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 558.3472)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_12_12" sectorAlias="1" row="12" place="12" class="place">
+			<rect x="480.117" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 485.8857 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 558.3472)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_12_11" sectorAlias="1" row="12" place="11" class="place">
+			<rect x="452.906" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 458.6748 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 558.3472)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_11_20" sectorAlias="1" row="11" place="20" class="place">
+			<rect x="697.814" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 703.583 531.1353)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 531.1353)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_11_19" sectorAlias="1" row="11" place="19" class="place">
+			<rect x="670.601" y="512.428" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 676.3701 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 531.1353)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_11_18" sectorAlias="1" row="11" place="18" class="place">
+			<rect x="643.388" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 649.1572 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 531.1353)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_11_17" sectorAlias="1" row="11" place="17" class="place">
+			<rect x="616.177" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 621.9463 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 531.1353)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_11_16" sectorAlias="1" row="11" place="16" class="place">
+			<rect x="588.964" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 594.7334 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 531.1353)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_11_15" sectorAlias="1" row="11" place="15" class="place">
+			<rect x="561.753" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 567.5225 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 531.1353)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_11_14" sectorAlias="1" row="11" place="14" class="place">
+			<rect x="534.541" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 540.3096 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 531.1353)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_11_13" sectorAlias="1" row="11" place="13" class="place">
+			<rect x="507.33" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 513.0986 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 531.1353)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_11_12" sectorAlias="1" row="11" place="12" class="place">
+			<rect x="480.117" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 485.8857 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 531.1353)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_11_11" sectorAlias="1" row="11" place="11" class="place">
+			<rect x="452.906" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 458.6748 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 531.1353)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_10_20" sectorAlias="1" row="10" place="20" class="place">
+			<rect x="697.814" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 703.583 503.9233)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 503.9233)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_10_19" sectorAlias="1" row="10" place="19" class="place">
+			<rect x="670.601" y="485.217" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 676.3701 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 503.9233)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_10_18" sectorAlias="1" row="10" place="18" class="place">
+			<rect x="643.388" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 649.1572 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 503.9233)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_10_17" sectorAlias="1" row="10" place="17" class="place">
+			<rect x="616.177" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 621.9463 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 503.9233)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_10_16" sectorAlias="1" row="10" place="16" class="place">
+			<rect x="588.964" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 594.7334 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 503.9233)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_10_15" sectorAlias="1" row="10" place="15" class="place">
+			<rect x="561.753" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 567.5225 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 503.9233)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_10_14" sectorAlias="1" row="10" place="14" class="place">
+			<rect x="534.541" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 540.3096 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 503.9233)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_10_13" sectorAlias="1" row="10" place="13" class="place">
+			<rect x="507.33" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 513.0986 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 503.9233)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_10_12" sectorAlias="1" row="10" place="12" class="place">
+			<rect x="480.117" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 485.8857 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 503.9233)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_10_11" sectorAlias="1" row="10" place="11" class="place">
+			<rect x="452.906" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 458.6748 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 503.9233)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_9_20" sectorAlias="1" row="9" place="20" class="place">
+			<rect x="697.814" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 703.583 476.7114)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 476.7114)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_9_19" sectorAlias="1" row="9" place="19" class="place">
+			<rect x="670.601" y="458.004" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 676.3701 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 476.7114)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_9_18" sectorAlias="1" row="9" place="18" class="place">
+			<rect x="643.388" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 649.1572 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 476.7114)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_9_17" sectorAlias="1" row="9" place="17" class="place">
+			<rect x="616.177" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 621.9463 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 476.7114)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_9_16" sectorAlias="1" row="9" place="16" class="place">
+			<rect x="588.964" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 594.7334 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 476.7114)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_9_15" sectorAlias="1" row="9" place="15" class="place">
+			<rect x="561.753" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 567.5225 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 476.7114)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_9_14" sectorAlias="1" row="9" place="14" class="place">
+			<rect x="534.541" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 540.3096 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 476.7114)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_9_13" sectorAlias="1" row="9" place="13" class="place">
+			<rect x="507.33" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 513.0986 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 476.7114)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_9_12" sectorAlias="1" row="9" place="12" class="place">
+			<rect x="480.117" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 485.8857 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 476.7114)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_9_11" sectorAlias="1" row="9" place="11" class="place">
+			<rect x="452.906" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 458.6748 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 476.7114)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_8_20" sectorAlias="1" row="8" place="20" class="place">
+			<rect x="697.814" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 703.583 449.4995)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 449.4995)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_8_19" sectorAlias="1" row="8" place="19" class="place">
+			<rect x="670.601" y="430.793" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 676.3701 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 449.4995)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_8_18" sectorAlias="1" row="8" place="18" class="place">
+			<rect x="643.388" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 649.1572 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 449.4995)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_8_17" sectorAlias="1" row="8" place="17" class="place">
+			<rect x="616.177" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 621.9463 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 449.4995)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_8_16" sectorAlias="1" row="8" place="16" class="place">
+			<rect x="588.964" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 594.7334 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 449.4995)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_8_15" sectorAlias="1" row="8" place="15" class="place">
+			<rect x="561.753" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 567.5225 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 449.4995)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_8_13" sectorAlias="1" row="8" place="13" class="place">
+			<rect x="507.33" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 513.0986 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 449.4995)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_8_12" sectorAlias="1" row="8" place="12" class="place">
+			<rect x="480.117" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 485.8857 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 449.4995)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_8_11" sectorAlias="1" row="8" place="11" class="place">
+			<rect x="452.906" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 458.6748 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 449.4995)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_7_20" sectorAlias="1" row="7" place="20" class="place">
+			<rect x="697.814" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 703.583 422.2876)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 422.2876)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_7_19" sectorAlias="1" row="7" place="19" class="place">
+			<rect x="670.601" y="403.581" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 676.3701 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 422.2876)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_7_17" sectorAlias="1" row="7" place="17" class="place">
+			<rect x="616.177" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 621.9463 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 422.2876)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_7_16" sectorAlias="1" row="7" place="16" class="place">
+			<rect x="588.964" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 594.7334 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 422.2876)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_7_15" sectorAlias="1" row="7" place="15" class="place">
+			<rect x="561.753" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 567.5225 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 422.2876)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_7_14" sectorAlias="1" row="7" place="14" class="place">
+			<rect x="534.541" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 540.3096 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 422.2876)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_7_13" sectorAlias="1" row="7" place="13" class="place">
+			<rect x="507.33" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 513.0986 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 422.2876)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_7_12" sectorAlias="1" row="7" place="12" class="place">
+			<rect x="480.117" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 485.8857 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 422.2876)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_7_11" sectorAlias="1" row="7" place="11" class="place">
+			<rect x="452.906" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 458.6748 422.2876)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 422.2876)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_6_20" sectorAlias="1" row="6" place="20" class="place">
+			<rect x="697.814" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 703.583 395.0757)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 395.0757)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_6_19" sectorAlias="1" row="6" place="19" class="place">
+			<rect x="670.601" y="376.37" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 676.3701 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 395.0757)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_6_18" sectorAlias="1" row="6" place="18" class="place">
+			<rect x="643.388" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 649.1572 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 395.0757)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_6_17" sectorAlias="1" row="6" place="17" class="place">
+			<rect x="616.177" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 621.9463 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 395.0757)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_6_16" sectorAlias="1" row="6" place="16" class="place">
+			<rect x="588.964" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 594.7334 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 395.0757)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_6_15" sectorAlias="1" row="6" place="15" class="place">
+			<rect x="561.753" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 567.5225 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 395.0757)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_6_14" sectorAlias="1" row="6" place="14" class="place">
+			<rect x="534.541" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 540.3096 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 395.0757)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_6_13" sectorAlias="1" row="6" place="13" class="place">
+			<rect x="507.33" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 513.0986 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 395.0757)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_6_12" sectorAlias="1" row="6" place="12" class="place">
+			<rect x="480.117" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 485.8857 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 395.0757)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_6_11" sectorAlias="1" row="6" place="11" class="place">
+			<rect x="452.906" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 458.6748 395.0757)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 395.0757)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_5_20" sectorAlias="1" row="5" place="20" class="place">
+			<rect x="697.814" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 703.583 367.8638)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 367.8638)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_5_19" sectorAlias="1" row="5" place="19" class="place">
+			<rect x="670.601" y="349.157" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 676.3701 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 367.8638)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_5_18" sectorAlias="1" row="5" place="18" class="place">
+			<rect x="643.388" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 649.1572 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 367.8638)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_5_17" sectorAlias="1" row="5" place="17" class="place">
+			<rect x="616.177" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 621.9463 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 367.8638)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_5_16" sectorAlias="1" row="5" place="16" class="place">
+			<rect x="588.964" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 594.7334 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 367.8638)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_5_15" sectorAlias="1" row="5" place="15" class="place">
+			<rect x="561.753" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 567.5225 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 367.8638)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_5_14" sectorAlias="1" row="5" place="14" class="place">
+			<rect x="534.541" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 540.3096 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 367.8638)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_5_13" sectorAlias="1" row="5" place="13" class="place">
+			<rect x="507.33" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 513.0986 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 367.8638)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_5_12" sectorAlias="1" row="5" place="12" class="place">
+			<rect x="480.117" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 485.8857 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 367.8638)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_5_11" sectorAlias="1" row="5" place="11" class="place">
+			<rect x="452.906" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 458.6748 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 367.8638)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_4_20" sectorAlias="1" row="4" place="20" class="place">
+			<rect x="697.814" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 703.583 340.6519)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 340.6519)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_4_19" sectorAlias="1" row="4" place="19" class="place">
+			<rect x="670.601" y="321.945" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 676.3701 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 340.6519)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_4_18" sectorAlias="1" row="4" place="18" class="place">
+			<rect x="643.388" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 649.1572 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 340.6519)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_4_17" sectorAlias="1" row="4" place="17" class="place">
+			<rect x="616.177" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 621.9463 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 340.6519)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_4_16" sectorAlias="1" row="4" place="16" class="place">
+			<rect x="588.964" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 594.7334 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 340.6519)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_4_15" sectorAlias="1" row="4" place="15" class="place">
+			<rect x="561.753" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 567.5225 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 340.6519)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_4_14" sectorAlias="1" row="4" place="14" class="place">
+			<rect x="534.541" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 540.3096 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 340.6519)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_4_13" sectorAlias="1" row="4" place="13" class="place">
+			<rect x="507.33" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 513.0986 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 340.6519)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_4_12" sectorAlias="1" row="4" place="12" class="place">
+			<rect x="480.117" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 485.8857 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 340.6519)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_4_11" sectorAlias="1" row="4" place="11" class="place">
+			<rect x="452.906" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 458.6748 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 340.6519)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_3_20" sectorAlias="1" row="3" place="20" class="place">
+			<rect x="697.814" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 703.583 313.4399)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 313.4399)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_3_19" sectorAlias="1" row="3" place="19" class="place">
+			<rect x="670.601" y="294.733" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 676.3701 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 313.4399)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_3_18" sectorAlias="1" row="3" place="18" class="place">
+			<rect x="643.388" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 649.1572 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 313.4399)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_3_17" sectorAlias="1" row="3" place="17" class="place">
+			<rect x="616.177" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 621.9463 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 313.4399)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_3_16" sectorAlias="1" row="3" place="16" class="place">
+			<rect x="588.964" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 594.7334 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 313.4399)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_3_15" sectorAlias="1" row="3" place="15" class="place">
+			<rect x="561.753" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 567.5225 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 313.4399)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_3_14" sectorAlias="1" row="3" place="14" class="place">
+			<rect x="534.541" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 540.3096 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 313.4399)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_3_13" sectorAlias="1" row="3" place="13" class="place">
+			<rect x="507.33" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 513.0986 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 313.4399)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_3_12" sectorAlias="1" row="3" place="12" class="place">
+			<rect x="480.117" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 485.8857 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 313.4399)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_3_11" sectorAlias="1" row="3" place="11" class="place">
+			<rect x="452.906" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 458.6748 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 313.4399)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_2_20" sectorAlias="1" row="2" place="20" class="place">
+			<rect x="697.814" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 703.583 286.228)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 286.228)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_2_19" sectorAlias="1" row="2" place="19" class="place">
+			<rect x="670.601" y="267.521" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 676.3701 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 286.228)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_2_18" sectorAlias="1" row="2" place="18" class="place">
+			<rect x="643.388" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 649.1572 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 286.228)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_2_17" sectorAlias="1" row="2" place="17" class="place">
+			<rect x="616.177" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 621.9463 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 286.228)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_2_16" sectorAlias="1" row="2" place="16" class="place">
+			<rect x="588.964" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 594.7334 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 286.228)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_2_15" sectorAlias="1" row="2" place="15" class="place">
+			<rect x="561.753" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 567.5225 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 286.228)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_2_14" sectorAlias="1" row="2" place="14" class="place">
+			<rect x="534.541" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 540.3096 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 286.228)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_2_13" sectorAlias="1" row="2" place="13" class="place">
+			<rect x="507.33" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 513.0986 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 286.228)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_2_12" sectorAlias="1" row="2" place="12" class="place">
+			<rect x="480.117" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 485.8857 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 286.228)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_2_11" sectorAlias="1" row="2" place="11" class="place">
+			<rect x="452.906" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 458.6748 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 286.228)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_1_20" sectorAlias="1" row="1" place="20" class="place">
+			<rect x="697.814" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 703.583 259.0161)" class="st16 st0 st12">2</text>
+			<text transform="matrix(1 0 0 1 711.2119 259.0161)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_1_19" sectorAlias="1" row="1" place="19" class="place">
+			<rect x="670.601" y="240.31" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 676.3701 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 683.999 259.0161)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_1_18" sectorAlias="1" row="1" place="18" class="place">
+			<rect x="643.388" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 649.1572 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 656.7861 259.0161)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_1_17" sectorAlias="1" row="1" place="17" class="place">
+			<rect x="616.177" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 621.9463 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 629.5752 259.0161)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_1_16" sectorAlias="1" row="1" place="16" class="place">
+			<rect x="588.964" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 594.7334 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 602.3623 259.0161)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_1_15" sectorAlias="1" row="1" place="15" class="place">
+			<rect x="561.753" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 567.5225 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 575.1514 259.0161)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_1_14" sectorAlias="1" row="1" place="14" class="place">
+			<rect x="534.541" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 540.3096 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 547.9385 259.0161)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_1_13" sectorAlias="1" row="1" place="13" class="place">
+			<rect x="507.33" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 513.0986 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 520.7275 259.0161)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_1_12" sectorAlias="1" row="1" place="12" class="place">
+			<rect x="480.117" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 485.8857 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 493.5146 259.0161)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_1_11" sectorAlias="1" row="1" place="11" class="place">
+			<rect x="452.906" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 458.6748 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 466.3037 259.0161)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_13_7" sectorAlias="1" row="13" place="7" class="place">
+			<rect x="370.775" y="566.852" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 379.5444 585.5591)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_13_6" sectorAlias="1" row="13" place="6" class="place">
+			<rect x="343.563" y="566.852" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 353.3315 585.5591)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_13_5" sectorAlias="1" row="13" place="5" class="place">
+			<rect x="316.351" y="566.852" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 326.1196 585.5591)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_13_4" sectorAlias="1" row="13" place="4" class="place">
+			<rect x="289.139" y="566.852" class="st10" width="27.212" height="27.213" />
+			<text transform="matrix(1 0 0 1 298.9077 585.5591)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_13_3" sectorAlias="1" row="13" place="3" class="place">
+			<rect x="261.927" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 271.6958 585.5591)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_13_2" sectorAlias="1" row="13" place="2" class="place">
+			<rect x="234.715" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 244.4839 585.5591)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_12_10" sectorAlias="1" row="12" place="10" class="place">
+			<rect x="370.775" y="539.641" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 376.5444 558.3472)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 558.3472)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_13_1" sectorAlias="1" row="13" place="1" class="place">
+			<rect x="207.503" y="566.852" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 217.272 585.5591)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_12_9" sectorAlias="1" row="12" place="9" class="place">
+			<rect x="343.563" y="539.641" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 353.3315 558.3472)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_12_8" sectorAlias="1" row="12" place="8" class="place">
+			<rect x="316.351" y="539.641" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 326.1196 558.3472)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_12_7" sectorAlias="1" row="12" place="7" class="place">
+			<rect x="289.139" y="539.641" class="st10" width="27.212" height="27.211" />
+			<text transform="matrix(1 0 0 1 298.9077 558.3472)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_12_6" sectorAlias="1" row="12" place="6" class="place">
+			<rect x="261.927" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 271.6958 558.3472)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_12_5" sectorAlias="1" row="12" place="5" class="place">
+			<rect x="234.715" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 244.4839 558.3472)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_12_4" sectorAlias="1" row="12" place="4" class="place">
+			<rect x="207.503" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 217.272 558.3472)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_12_3" sectorAlias="1" row="12" place="3" class="place">
+			<rect x="180.291" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 190.0601 558.3472)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_12_2" sectorAlias="1" row="12" place="2" class="place">
+			<rect x="153.079" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 162.8481 558.3472)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_12_1" sectorAlias="1" row="12" place="1" class="place">
+			<rect x="125.867" y="539.641" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 135.6362 558.3472)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_11_10" sectorAlias="1" row="11" place="10" class="place">
+			<rect x="370.775" y="512.428" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 376.5444 531.1353)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 531.1353)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_11_9" sectorAlias="1" row="11" place="9" class="place">
+			<rect x="343.563" y="512.428" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 353.3315 531.1353)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_11_8" sectorAlias="1" row="11" place="8" class="place">
+			<rect x="316.351" y="512.428" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 326.1196 531.1353)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_11_7" sectorAlias="1" row="11" place="7" class="place">
+			<rect x="289.139" y="512.428" class="st10" width="27.212" height="27.213" />
+			<text transform="matrix(1 0 0 1 298.9077 531.1353)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_11_6" sectorAlias="1" row="11" place="6" class="place">
+			<rect x="261.927" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 271.6958 531.1353)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_11_5" sectorAlias="1" row="11" place="5" class="place">
+			<rect x="234.715" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 244.4839 531.1353)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_11_4" sectorAlias="1" row="11" place="4" class="place">
+			<rect x="207.503" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 217.272 531.1353)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_11_3" sectorAlias="1" row="11" place="3" class="place">
+			<rect x="180.291" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 190.0601 531.1353)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_11_2" sectorAlias="1" row="11" place="2" class="place">
+			<rect x="153.079" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 162.8481 531.1353)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_11_1" sectorAlias="1" row="11" place="1" class="place">
+			<rect x="125.867" y="512.428" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 135.6362 531.1353)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_10_10" sectorAlias="1" row="10" place="10" class="place">
+			<rect x="370.775" y="485.217" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 376.5444 503.9233)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 503.9233)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_10_9" sectorAlias="1" row="10" place="9" class="place">
+			<rect x="343.563" y="485.217" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 353.3315 503.9233)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_10_8" sectorAlias="1" row="10" place="8" class="place">
+			<rect x="316.351" y="485.217" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 326.1196 503.9233)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_10_7" sectorAlias="1" row="10" place="7" class="place">
+			<rect x="289.139" y="485.217" class="st10" width="27.212" height="27.211" />
+			<text transform="matrix(1 0 0 1 298.9077 503.9233)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_10_6" sectorAlias="1" row="10" place="6" class="place">
+			<rect x="261.927" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 271.6958 503.9233)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_10_5" sectorAlias="1" row="10" place="5" class="place">
+			<rect x="234.715" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 244.4839 503.9233)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_10_4" sectorAlias="1" row="10" place="4" class="place">
+			<rect x="207.503" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 217.272 503.9233)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_10_3" sectorAlias="1" row="10" place="3" class="place">
+			<rect x="180.291" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 190.0601 503.9233)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_10_2" sectorAlias="1" row="10" place="2" class="place">
+			<rect x="153.079" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 162.8481 503.9233)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_10_1" sectorAlias="1" row="10" place="1" class="place">
+			<rect x="125.867" y="485.217" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 135.6362 503.9233)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_9_10" sectorAlias="1" row="9" place="10" class="place">
+			<rect x="370.775" y="458.004" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 376.5444 476.7114)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 476.7114)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_9_9" sectorAlias="1" row="9" place="9" class="place">
+			<rect x="343.563" y="458.004" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 353.3315 476.7114)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_9_8" sectorAlias="1" row="9" place="8" class="place">
+			<rect x="316.351" y="458.004" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 326.1196 476.7114)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_9_7" sectorAlias="1" row="9" place="7" class="place">
+			<rect x="289.139" y="458.004" class="st10" width="27.212" height="27.213" />
+			<text transform="matrix(1 0 0 1 298.9077 476.7114)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_9_6" sectorAlias="1" row="9" place="6" class="place">
+			<rect x="261.927" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 271.6958 476.7114)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_9_5" sectorAlias="1" row="9" place="5" class="place">
+			<rect x="234.715" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 244.4839 476.7114)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_9_4" sectorAlias="1" row="9" place="4" class="place">
+			<rect x="207.503" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 217.272 476.7114)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_9_3" sectorAlias="1" row="9" place="3" class="place">
+			<rect x="180.291" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 190.0601 476.7114)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_9_2" sectorAlias="1" row="9" place="2" class="place">
+			<rect x="153.079" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 162.8481 476.7114)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_9_1" sectorAlias="1" row="9" place="1" class="place">
+			<rect x="125.867" y="458.004" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 135.6362 476.7114)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_8_10" sectorAlias="1" row="8" place="10" class="place">
+			<rect x="370.775" y="430.793" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 376.5444 449.4995)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 449.4995)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_8_9" sectorAlias="1" row="8" place="9" class="place">
+			<rect x="343.563" y="430.793" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 353.3315 449.4995)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_8_8" sectorAlias="1" row="8" place="8" class="place">
+			<rect x="316.351" y="430.793" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 326.1196 449.4995)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_8_7" sectorAlias="1" row="8" place="7" class="place">
+			<rect x="289.139" y="430.793" class="st10" width="27.212" height="27.211" />
+			<text transform="matrix(1 0 0 1 298.9077 449.4995)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_8_6" sectorAlias="1" row="8" place="6" class="place">
+			<rect x="261.927" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 271.6958 449.4995)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_8_5" sectorAlias="1" row="8" place="5" class="place">
+			<rect x="234.715" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 244.4839 449.4995)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_8_4" sectorAlias="1" row="8" place="4" class="place">
+			<rect x="207.503" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 217.272 449.4995)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_8_3" sectorAlias="1" row="8" place="3" class="place">
+			<rect x="180.291" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 190.0601 449.4995)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_8_2" sectorAlias="1" row="8" place="2" class="place">
+			<rect x="153.079" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 162.8481 449.4995)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_8_1" sectorAlias="1" row="8" place="1" class="place">
+			<rect x="125.867" y="430.793" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 135.6362 449.4995)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_7_8" sectorAlias="1" row="7" place="8" class="place">
+			<rect x="316.351" y="403.581" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 326.1196 422.2876)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_7_7" sectorAlias="1" row="7" place="7" class="place">
+			<rect x="289.139" y="403.581" class="st10" width="27.212" height="27.213" />
+			<text transform="matrix(1 0 0 1 298.9077 422.2876)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_7_6" sectorAlias="1" row="7" place="6" class="place">
+			<rect x="261.927" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 271.6958 422.2876)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_7_5" sectorAlias="1" row="7" place="5" class="place">
+			<rect x="234.715" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 244.4839 422.2876)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_7_4" sectorAlias="1" row="7" place="4" class="place">
+			<rect x="207.503" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 217.272 422.2876)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_7_3" sectorAlias="1" row="7" place="3" class="place">
+			<rect x="180.291" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 190.0601 422.2876)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_7_2" sectorAlias="1" row="7" place="2" class="place">
+			<rect x="153.079" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 162.8481 422.2876)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_7_1" sectorAlias="1" row="7" place="1" class="place">
+			<rect x="125.867" y="403.581" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 135.6362 422.2876)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_6_8" sectorAlias="1" row="6" place="8" class="place">
+			<rect x="316.351" y="376.37" class="st10" width="27.214" height="27.211" />
+			<text transform="matrix(1 0 0 1 326.1196 395.0757)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_6_7" sectorAlias="1" row="6" place="7" class="place">
+			<rect x="289.139" y="376.37" class="st10" width="27.212" height="27.211" />
+			<text transform="matrix(1 0 0 1 298.9077 395.0757)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_6_6" sectorAlias="1" row="6" place="6" class="place">
+			<rect x="261.927" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 271.6958 395.0757)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_6_5" sectorAlias="1" row="6" place="5" class="place">
+			<rect x="234.715" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 244.4839 395.0757)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_6_4" sectorAlias="1" row="6" place="4" class="place">
+			<rect x="207.503" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 217.272 395.0757)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_6_3" sectorAlias="1" row="6" place="3" class="place">
+			<rect x="180.291" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 190.0601 395.0757)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_6_2" sectorAlias="1" row="6" place="2" class="place">
+			<rect x="153.079" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 162.8481 395.0757)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_6_1" sectorAlias="1" row="6" place="1" class="place">
+			<rect x="125.867" y="376.37" class="st10" width="27.213" height="27.211" />
+			<text transform="matrix(1 0 0 1 135.6362 395.0757)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_5_10" sectorAlias="1" row="5" place="10" class="place">
+			<rect x="370.775" y="349.157" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 376.5444 367.8638)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 367.8638)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_5_9" sectorAlias="1" row="5" place="9" class="place">
+			<rect x="343.563" y="349.157" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 353.3315 367.8638)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_5_8" sectorAlias="1" row="5" place="8" class="place">
+			<rect x="316.351" y="349.157" class="st10" width="27.214" height="27.213" />
+			<text transform="matrix(1 0 0 1 326.1196 367.8638)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_5_7" sectorAlias="1" row="5" place="7" class="place">
+			<rect x="289.139" y="349.157" class="st10" width="27.212" height="27.213" />
+			<text transform="matrix(1 0 0 1 298.9077 367.8638)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_5_6" sectorAlias="1" row="5" place="6" class="place">
+			<rect x="261.927" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 271.6958 367.8638)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_5_5" sectorAlias="1" row="5" place="5" class="place">
+			<rect x="234.715" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 244.4839 367.8638)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_5_4" sectorAlias="1" row="5" place="4" class="place">
+			<rect x="207.503" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 217.272 367.8638)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_5_3" sectorAlias="1" row="5" place="3" class="place">
+			<rect x="180.291" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 190.0601 367.8638)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_5_2" sectorAlias="1" row="5" place="2" class="place">
+			<rect x="153.079" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 162.8481 367.8638)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_5_1" sectorAlias="1" row="5" place="1" class="place">
+			<rect x="125.867" y="349.157" class="st10" width="27.213" height="27.213" />
+			<text transform="matrix(1 0 0 1 135.6362 367.8638)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_4_10" sectorAlias="1" row="4" place="10" class="place">
+			<rect x="370.775" y="321.945" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 376.5444 340.6519)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 340.6519)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_4_9" sectorAlias="1" row="4" place="9" class="place">
+			<rect x="343.563" y="321.945" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 353.3315 340.6519)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_4_8" sectorAlias="1" row="4" place="8" class="place">
+			<rect x="316.351" y="321.945" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 326.1196 340.6519)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_4_7" sectorAlias="1" row="4" place="7" class="place">
+			<rect x="289.139" y="321.945" class="st10" width="27.212" height="27.212" />
+			<text transform="matrix(1 0 0 1 298.9077 340.6519)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_4_6" sectorAlias="1" row="4" place="6" class="place">
+			<rect x="261.927" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 271.6958 340.6519)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_4_5" sectorAlias="1" row="4" place="5" class="place">
+			<rect x="234.715" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 244.4839 340.6519)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_4_4" sectorAlias="1" row="4" place="4" class="place">
+			<rect x="207.503" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 217.272 340.6519)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_4_3" sectorAlias="1" row="4" place="3" class="place">
+			<rect x="180.291" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 190.0601 340.6519)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_4_2" sectorAlias="1" row="4" place="2" class="place">
+			<rect x="153.079" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 162.8481 340.6519)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_4_1" sectorAlias="1" row="4" place="1" class="place">
+			<rect x="125.867" y="321.945" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 135.6362 340.6519)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_3_10" sectorAlias="1" row="3" place="10" class="place">
+			<rect x="370.775" y="294.733" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 376.5444 313.4399)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 313.4399)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_3_9" sectorAlias="1" row="3" place="9" class="place">
+			<rect x="343.563" y="294.733" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 353.3315 313.4399)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_3_8" sectorAlias="1" row="3" place="8" class="place">
+			<rect x="316.351" y="294.733" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 326.1196 313.4399)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_3_7" sectorAlias="1" row="3" place="7" class="place">
+			<rect x="289.139" y="294.733" class="st10" width="27.212" height="27.212" />
+			<text transform="matrix(1 0 0 1 298.9077 313.4399)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_3_6" sectorAlias="1" row="3" place="6" class="place">
+			<rect x="261.927" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 271.6958 313.4399)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_3_5" sectorAlias="1" row="3" place="5" class="place">
+			<rect x="234.715" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 244.4839 313.4399)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_3_4" sectorAlias="1" row="3" place="4" class="place">
+			<rect x="207.503" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 217.272 313.4399)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_3_3" sectorAlias="1" row="3" place="3" class="place">
+			<rect x="180.291" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 190.0601 313.4399)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_3_2" sectorAlias="1" row="3" place="2" class="place">
+			<rect x="153.079" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 162.8481 313.4399)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_3_1" sectorAlias="1" row="3" place="1" class="place">
+			<rect x="125.867" y="294.733" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 135.6362 313.4399)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_2_10" sectorAlias="1" row="2" place="10" class="place">
+			<rect x="370.775" y="267.521" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 376.5444 286.228)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 286.228)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_2_9" sectorAlias="1" row="2" place="9" class="place">
+			<rect x="343.563" y="267.521" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 353.3315 286.228)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_2_8" sectorAlias="1" row="2" place="8" class="place">
+			<rect x="316.351" y="267.521" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 326.1196 286.228)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_2_7" sectorAlias="1" row="2" place="7" class="place">
+			<rect x="289.139" y="267.521" class="st10" width="27.212" height="27.212" />
+			<text transform="matrix(1 0 0 1 298.9077 286.228)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_2_6" sectorAlias="1" row="2" place="6" class="place">
+			<rect x="261.927" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 271.6958 286.228)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_2_5" sectorAlias="1" row="2" place="5" class="place">
+			<rect x="234.715" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 244.4839 286.228)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_2_4" sectorAlias="1" row="2" place="4" class="place">
+			<rect x="207.503" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 217.272 286.228)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_2_3" sectorAlias="1" row="2" place="3" class="place">
+			<rect x="180.291" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 190.0601 286.228)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_2_2" sectorAlias="1" row="2" place="2" class="place">
+			<rect x="153.079" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 162.8481 286.228)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_2_1" sectorAlias="1" row="2" place="1" class="place">
+			<rect x="125.867" y="267.521" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 135.6362 286.228)" class="st16 st0 st12">1</text>
+		</g>
+		<g id="1_1_10" sectorAlias="1" row="1" place="10" class="place">
+			<rect x="370.775" y="240.31" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 376.5444 259.0161)" class="st16 st0 st12">1</text>
+			<text transform="matrix(1 0 0 1 384.1733 259.0161)" class="st16 st0 st12">0</text>
+		</g>
+		<g id="1_1_9" sectorAlias="1" row="1" place="9" class="place">
+			<rect x="343.563" y="240.31" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 353.3315 259.0161)" class="st16 st0 st12">9</text>
+		</g>
+		<g id="1_1_8" sectorAlias="1" row="1" place="8" class="place">
+			<rect x="316.351" y="240.31" class="st10" width="27.214" height="27.212" />
+			<text transform="matrix(1 0 0 1 326.1196 259.0161)" class="st16 st0 st12">8</text>
+		</g>
+		<g id="1_1_7" sectorAlias="1" row="1" place="7" class="place">
+			<rect x="289.139" y="240.31" class="st10" width="27.212" height="27.212" />
+			<text transform="matrix(1 0 0 1 298.9077 259.0161)" class="st16 st0 st12">7</text>
+		</g>
+		<g id="1_1_6" sectorAlias="1" row="1" place="6" class="place">
+			<rect x="261.927" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 271.6958 259.0161)" class="st16 st0 st12">6</text>
+		</g>
+		<g id="1_1_5" sectorAlias="1" row="1" place="5" class="place">
+			<rect x="234.715" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 244.4839 259.0161)" class="st16 st0 st12">5</text>
+		</g>
+		<g id="1_1_4" sectorAlias="1" row="1" place="4" class="place">
+			<rect x="207.503" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 217.272 259.0161)" class="st16 st0 st12">4</text>
+		</g>
+		<g id="1_1_3" sectorAlias="1" row="1" place="3" class="place">
+			<rect x="180.291" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 190.0601 259.0161)" class="st16 st0 st12">3</text>
+		</g>
+		<g id="1_1_2" sectorAlias="1" row="1" place="2" class="place">
+			<rect x="153.079" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 162.8481 259.0161)" class="st16 st0 st12">2</text>
+		</g>
+		<g id="1_1_1" sectorAlias="1" row="1" place="1" class="place">
+			<rect x="125.867" y="240.31" class="st10" width="27.213" height="27.212" />
+			<text transform="matrix(1 0 0 1 135.6362 259.0161)" class="st16 st0 st12">1</text>
+		</g>
+	</g>
+</g>
+<g id="icolorscheme" class="st23">
+	<g id="ics12" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="976.991" y="25.411" class="st18" width="39.023" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 971.0166 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics11" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="913.535" y="25.411" class="st9" width="39.023" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 907.5586 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics10" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="850.076" y="25.411" class="st22" width="39.023" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 844.1006 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics9" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="786.617" y="25.411" class="st20" width="39.023" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 780.6416 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics8" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="723.159" y="25.411" class="st25" width="39.022" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 717.1836 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics7" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="659.7" y="25.411" class="st19" width="39.023" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 653.7246 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics6" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="596.238" y="25.411" class="st15" width="39.026" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 590.2656 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics5" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="532.779" y="25.411" class="st2" width="39.025" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 526.8066 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics4" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="469.322" y="25.411" class="st1" width="39.024" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 463.3477 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics3" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="405.863" y="25.411" class="st21" width="39.023" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 399.8896 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics2" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="341.347" y="25.411" class="st8" width="39.024" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 335.373 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="ics1" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="277.888" y="25.411" class="st6" width="39.024" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 271.9146 84.9277)" class="st24 st0 st13">1000 руб</text>
+	</g>
+	<g id="iorder" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="203.853" y="25.411" class="st3" width="39.022" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 182.6851 84.9277)" class="st24 st0 st13">забронировано</text>
+	</g>
+	<g id="idisabled" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="123.471" y="25.411" class="st11" width="39.024" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 112.6484 84.9277)" class="st24 st0 st13">недоступно</text>
+	</g>
+	<g id="isell" class="st17">
+		<rect id="_x3C_Compound_Path_x3E_" x="61.071" y="25.411" class="st4" width="39.024" height="40.229" />
+		<text transform="matrix(0.97 0 0 1 59.0703 84.9277)" class="st24 st0 st13">продано</text>
+	</g>
+</g>
+</svg>

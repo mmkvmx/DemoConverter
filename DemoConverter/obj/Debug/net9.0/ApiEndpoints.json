@@ -11,6 +11,72 @@
         "Name": "cacheKey",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "placeMarginGorizontal",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeMarginVertical",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeSizeWidth",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeSizeHeight",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateCircleToRect",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoConverter.Controllers.MainController",
+    "Method": "Convert",
+    "RelativePath": "api/Main/convert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cacheKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeMarginGorizontal",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeMarginVertical",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeSizeWidth",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeSizeHeight",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateCircleToRect",
+        "Type": "System.Boolean",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -1,6 +1,15 @@
 using DemoConverter.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend3000", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 // Добавление сервисов в контейнер
 builder.Services.AddScoped<IZipService, ZipService>(); // Регистрация сервиса IZipService для работы с архивом
 builder.Services.AddScoped<ISvgService, SvgService>(); // Регистрация сервиса обработки svg
@@ -22,6 +31,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowFrontend3000");
 
 app.UseAuthorization();
 

@@ -8,5 +8,8 @@ namespace DemoConverter.Services
         public void MarkSectors(XmlDocument xDoc, List<SbSector> sbSectors);
         public void ClearSvgXmlDoc(XmlDocument xDoc, bool clearCss = false, string customCss = "");
         public void ModifySvg(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, bool updateCircleToRect = false);
+        public void ConvertCirclesToRects(XmlDocument xDoc, double marginGorizontal, double marginVertical, double placeSizeWidth, double placeSizeHeight);
+        public double GetAttributeValue(XmlNode node, string attributeName);
+        public void SetAttributeValue(XmlNode node, string attributeName, string value);
     }
 }

@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|solutionrelative:democonverter\\services\\isvgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|c:\\users\\mamko\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\vscode\\sneakers\\democonverter\\democonverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|solutionrelative:democonverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|c:\\users\\mamko\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\vscode\\sneakers\\democonverter\\democonverter\\services\\zipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|solutionrelative:democonverter\\services\\zipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|c:\\users\\mamko\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\vscode\\sneakers\\democonverter\\democonverter\\models\\sbplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|solutionrelative:democonverter\\models\\sbplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|c:\\users\\mamko\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\vscode\\sneakers\\democonverter\\democonverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|solutionrelative:democonverter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{601729A9-2780-4586-B1B8-F391BFB78337}|DemoConverter\\DemoConverter.csproj|c:\\users\\mamko\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\vscode\\sneakers\\democonverter\\democonverter\\democonverter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "DemoConverter\\Services\\SvgService.cs",
               "ToolTip": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Services\\SvgService.cs",
               "RelativeToolTip": "DemoConverter\\Services\\SvgService.cs",
-              "ViewState": "AgIAAEEBAAAAAAAAAAAAAE0BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKYBAAAAAAAAAAAAAMABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T10:56:43.765Z",
               "EditorCaption": ""
@@ -77,14 +77,14 @@
               "RelativeDocumentMoniker": "DemoConverter\\Controllers\\MainController.cs",
               "ToolTip": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Controllers\\MainController.cs",
               "RelativeToolTip": "DemoConverter\\Controllers\\MainController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T07:28:20.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SbPlace.cs",
               "DocumentMoniker": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Models\\SbPlace.cs",
               "RelativeDocumentMoniker": "DemoConverter\\Models\\SbPlace.cs",
@@ -96,32 +96,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Program.cs",
               "RelativeDocumentMoniker": "DemoConverter\\Program.cs",
               "ToolTip": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Program.cs",
               "RelativeToolTip": "DemoConverter\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T10:37:48.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ZipService.cs",
               "DocumentMoniker": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Services\\ZipService.cs",
               "RelativeDocumentMoniker": "DemoConverter\\Services\\ZipService.cs",
               "ToolTip": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Services\\ZipService.cs",
               "RelativeToolTip": "DemoConverter\\Services\\ZipService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:20:08.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:20:08.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IZipService.cs",
               "DocumentMoniker": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Services\\IZipService.cs",
               "RelativeDocumentMoniker": "DemoConverter\\Services\\IZipService.cs",
@@ -129,12 +128,11 @@
               "RelativeToolTip": "DemoConverter\\Services\\IZipService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:07:06.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:07:06.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "VenueData.cs",
               "DocumentMoniker": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Models\\VenueData.cs",
               "RelativeDocumentMoniker": "DemoConverter\\Models\\VenueData.cs",
@@ -142,8 +140,7 @@
               "RelativeToolTip": "DemoConverter\\Models\\VenueData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:04:57.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:04:57.513Z"
             },
             {
               "$type": "Document",
@@ -153,14 +150,14 @@
               "RelativeDocumentMoniker": "DemoConverter\\Services\\ISvgService.cs",
               "ToolTip": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Services\\ISvgService.cs",
               "RelativeToolTip": "DemoConverter\\Services\\ISvgService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T10:26:25.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SbSector.cs",
               "DocumentMoniker": "C:\\Users\\mamko\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\Models\\SbSector.cs",
               "RelativeDocumentMoniker": "DemoConverter\\Models\\SbSector.cs",

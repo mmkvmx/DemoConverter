@@ -1,0 +1,22 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Upload from './components/Upload';
+import React from 'react';
+import './index.scss'
+import axios from 'axios';
+import ConversionResult from './components/ConversionResult'; 
+function App() {
+  const [status, setStatus] = React.useState("");
+  const [submitted, setSubmitted] = React.useState(false);
+  return (
+    <div className="App">
+      <div className="text-center">
+        <h1 className="display-4">Конвертер Залов</h1>
+      </div>
+      <>
+      // реализовать логику размещения двух компонентов рядом друг с другом
+      </>
+    </div>
+  );
+}
+
+export default App;

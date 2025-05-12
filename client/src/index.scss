@@ -1,0 +1,16 @@
+.App{
+    padding-bottom: 50px;
+}
+.submission{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.upload{
+    width: 30%;
+}
+.result{
+    width: 60%;
+}
