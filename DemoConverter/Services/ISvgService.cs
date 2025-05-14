@@ -11,5 +11,12 @@ namespace DemoConverter.Services
         public void ConvertCirclesToRects(XmlDocument xDoc, double marginGorizontal, double marginVertical, double placeSizeWidth, double placeSizeHeight);
         public double GetAttributeValue(XmlNode node, string attributeName);
         public void SetAttributeValue(XmlNode node, string attributeName, string value);
+        void MergeBlocks(XmlDocument xDoc, IdBlockType idType);
+        public void ChangeAttributes(XmlDocument xDoc, string attrName, string targetValue, string newValue);
     }
+}
+public enum IdBlockType
+{
+    Sectors,
+    Seats
 }

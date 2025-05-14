@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R00WqVa0KdlIswRipeFlAz5w6SFekE3GOxhPenhJb2I=",
+  "Hash": "4n+LhanHTbQhza7/U9b6KKShPrvv07yIqqnyeTiTJkI=",
   "Source": "DemoConverter",
   "BasePath": "_content/DemoConverter",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "DemoConverter\\wwwroot",
       "Source": "DemoConverter",
-      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
       "BasePath": "_content/DemoConverter",
       "Pattern": "**"
     }

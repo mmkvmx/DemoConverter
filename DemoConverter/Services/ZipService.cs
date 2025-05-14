@@ -1,6 +1,10 @@
 ﻿using DemoConverter.Models;
 using System.IO.Compression;
 using System.Text.Json;
+using CsvHelper;
+using CsvHelper.Configuration;
+using System.Globalization;
+using System.Text;
 
 //Улучшаем эффективность кода, не сохраняя временные файлы на диске
 namespace DemoConverter.Services
@@ -91,101 +95,133 @@ namespace DemoConverter.Services
 
         public List<SbPlace> GetPlacesFromText(string placesText)
         {
-            var placesList = new List<SbPlace>();
-            using var reader = new StringReader(placesText);
-
-            string? line;
-            while ((line = reader.ReadLine()) != null)
+            var places = new List<SbPlace>();
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                var parts = line.Split(',');
+                HasHeaderRecord = false,
+                MissingFieldFound = null,
+                BadDataFound = null,
+                TrimOptions = TrimOptions.Trim,
+            };
 
-                if (parts.Length >= 5)
+            using var reader = new StringReader(placesText);
+            using var csv = new CsvReader(reader, config);
+
+            while (csv.Read())
+            {
+                try
                 {
-                    try
+                    var place = new SbPlace
                     {
-                        int placeId = int.Parse(parts[0]);
-                        int sectorId = int.Parse(parts[1]);
-                        int? sectorChildId = string.IsNullOrWhiteSpace(parts[2]) ? null : int.Parse(parts[2]);
-                        int? row = string.IsNullOrWhiteSpace(parts[3]) ? null : int.Parse(parts[3]);
-                        int seat = int.Parse(parts[4]);
+                        // Используем TryGetField для безопасного извлечения значений
+                        Id = csv.TryGetField(0, out string idVal) && int.TryParse(idVal, out var id) ? id : 0, // Проверка на валидность числа
+                        SectorId = csv.TryGetField(1, out string sectorIdVal) && int.TryParse(sectorIdVal, out var sectorId) ? sectorId : 0,
+                        SectorChildId = csv.TryGetField(2, out string scid) && int.TryParse(scid, out var scidVal) ? scidVal : (int?)null,
+                        Row = csv.TryGetField(3, out string rowVal) && int.TryParse(rowVal, out var rowNum) ? rowNum : (int?)null,
+                        Seat = csv.TryGetField(4, out string seatVal) && int.TryParse(seatVal, out var seatNum) ? seatNum : 0
+                    };
 
-                        var place = new SbPlace
-                        {
-                            Id = placeId,
-                            SectorId = sectorId,
-                            SectorChildId = sectorChildId,
-                            Row = row,
-                            Seat = seat
-                        };
-
-                        placesList.Add(place);
-                    }
-                    catch (FormatException ex)
-                    {
-                        Console.WriteLine($"Некорректная строка: {line}. Ошибка: {ex.Message}");
-                    }
+                    places.Add(place);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка парсинга строки: {csv.Parser.RawRecord}. {ex.Message}");
                 }
             }
 
-            return placesList;
+            return places;
         }
+
 
         public List<SbSector> GetSectorsFromText(string sectorsText)
         {
-            var sectorsList = new List<SbSector>();
-            using var reader = new StringReader(sectorsText);
-
-            string? line;
-            while ((line = reader.ReadLine()) != null)
+            var sectors = new List<SbSector>();
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                var parts = line.Split(',');
+                HasHeaderRecord = false,
+                MissingFieldFound = null,
+                BadDataFound = null,
+                TrimOptions = TrimOptions.Trim,
+            };
 
-                if (parts.Length >= 5)
+            using var reader = new StringReader(sectorsText);
+            using var csv = new CsvReader(reader, config);
+
+            while (csv.Read())
+            {
+                try
                 {
-                    if (int.TryParse(parts[0], out int sectorId) &&
-                        int.TryParse(parts[3], out int sectorTypeInt) &&
-                        int.TryParse(parts[4], out int sectorCapacity))
+                    int sectorId = csv.TryGetField(0, out string sectorIdVal) && int.TryParse(sectorIdVal, out var sectorIdResult) ? sectorIdResult : 0;
+                    string sectorName = csv.TryGetField(1, out string sectorNameVal) ? sectorNameVal?.Replace("\"", "")?.Trim() ?? "Основной" : "Основной";
+                    string hallArea = csv.TryGetField(2, out string hallAreaVal) ? hallAreaVal?.Replace("\"", "")?.Trim() ?? "Основной" : "Основной";
+                    int sectorTypeRaw = csv.TryGetField(3, out string sectorTypeRawVal) && int.TryParse(sectorTypeRawVal, out var sectorType) ? sectorType : 0;
+                    int capacity = csv.TryGetField(4, out string capacityVal) && int.TryParse(capacityVal, out var capacityResult) ? capacityResult : 0;
+
+                    if (!Enum.IsDefined(typeof(SbSectorType), sectorTypeRaw))
                     {
-                        var sectorName = parts[1].Replace("\"", "").Trim();
-                        if (string.IsNullOrEmpty(sectorName))
-                        {
-                            Console.WriteLine($"Имя сектора пустое, устанавливаем 'Основной'");
-                            sectorName = "Основной";
-                        }
-
-                        var hallArea = parts[2].Replace("\"", "").Trim();
-                        if (string.IsNullOrEmpty(hallArea))
-                        {
-                            Console.WriteLine($"Имя области сектора пустое, устанавливаем 'Основной'");
-                            hallArea = "Основной";
-                        }
-
-                        if (Enum.IsDefined(typeof(SbSectorType), sectorTypeInt))
-                        {
-                            var sectorType = (SbSectorType)sectorTypeInt;
-
-                            sectorsList.Add(new SbSector
-                            {
-                                Id = sectorId,
-                                Name = sectorName,
-                                HallArea = hallArea,
-                                Type = sectorType,
-                                Capacity = sectorCapacity
-                            });
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Неизвестный тип сектора: {sectorTypeInt}");
-                        }
+                        Console.WriteLine($"Неизвестный тип сектора: {sectorTypeRaw} в строке: {csv.Parser.RawRecord}");
+                        continue;
                     }
-                    else
+
+                    var sector = new SbSector
                     {
-                        Console.WriteLine($"Ошибка парсинга чисел в строке: {line}");
-                    }
+                        Id = sectorId,
+                        Name = sectorName,
+                        HallArea = hallArea,
+                        Type = (SbSectorType)sectorTypeRaw,
+                        Capacity = capacity
+                    };
+
+                    sectors.Add(sector);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка парсинга строки: {csv.Parser.RawRecord}. {ex.Message}");
                 }
             }
 
-            return sectorsList;
+            return sectors;
+        }
+
+        public string EditPlaces(List<SbPlace> places)
+        {
+            var sb = new StringBuilder();
+
+            foreach (var place in places)
+            {
+                if (place.SectorId > 0 || place.Row > 0 || place.Seat > 0)
+                {
+                    string line = $"{place.SectorId}\t{place.Row}\t{place.Seat}";
+                    sb.AppendLine(line);
+                }
+            }
+            return sb.ToString();
+        }
+
+        public string EditSectors(List<SbSector> sectors)
+        {
+            var sb = new StringBuilder();
+
+            Dictionary<SbSectorType, TsSectorType> sectorsSbType = new Dictionary<SbSectorType, TsSectorType>
+        {
+            { SbSectorType.Entrance, TsSectorType.Entrance }, //  у СБ входной имеет тип 2, а у нас 0
+            { SbSectorType.WithPlaces, TsSectorType.WithPlaces }, //  c местами
+        };
+
+
+            foreach (var sector in sectors)
+            {
+                if (sectorsSbType.TryGetValue(sector.Type, out TsSectorType type) && !string.IsNullOrEmpty(sector.Name))
+                {
+                    string line = $"{sector.Id}\t{sector.Name}\t{(int)type}\t{sector.Capacity}";
+                    sb.AppendLine(line);
+                }
+                else
+                {
+                    Console.Write($"Тип сектора  СБ: {sector.Type} не найден, сектор пропускаем");
+                }
+            }
+            return sb.ToString();
         }
 
     }

@@ -58,7 +58,7 @@ namespace DemoConverter.Controllers
             }
         }
         [HttpPost("convert")]
-        public IActionResult Convert([FromQuery] string cacheKey, [FromQuery] double placeMarginGorizontal = 0, [FromQuery] double placeMarginVertical = 0, [FromQuery] double placeSizeWidth = 0, [FromQuery] double placeSizeHeight = 0, [FromQuery] bool updateCircleToRect = false)
+        public IActionResult Convert([FromQuery] string cacheKey, [FromQuery] double placeMarginGorizontal = 0, [FromQuery] double placeMarginVertical = 0, [FromQuery] double placeSizeWidth = 0, [FromQuery] double placeSizeHeight = 0, [FromQuery] bool updateCircleToRect = false, [FromQuery] bool clearCss = false, [FromQuery] string customCss = "")
         {
             if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
                 return BadRequest("Данные не найдены или устарели");
@@ -72,10 +72,13 @@ namespace DemoConverter.Controllers
 
                 _svgService.MarkSectors(xmlDoc, sectors);
                 _svgService.MarkPlaces(xmlDoc, places);
-                _svgService.ClearSvgXmlDoc(xmlDoc);
-
+                _svgService.ClearSvgXmlDoc(xmlDoc, clearCss, customCss);
                 _svgService.ModifySvg(xmlDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight, updateCircleToRect);
-
+                //объединяем сектора в единый блок с id="sectors"
+                _svgService.MergeBlocks(xmlDoc, IdBlockType.Sectors);
+                //объединяем места в единый блок с id="seats"
+                _svgService.MergeBlocks(xmlDoc, IdBlockType.Seats);
+                _svgService.ChangeAttributes(xmlDoc, "id", "seats", "places");
                 var svgContent = xmlDoc.OuterXml;
                 var svgBytes = System.Text.Encoding.UTF8.GetBytes(svgContent);
                 var fileName = $"converted_{DateTime.Now:yyyyMMddHHmmss}.svg";

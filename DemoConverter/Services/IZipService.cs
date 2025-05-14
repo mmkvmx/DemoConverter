@@ -8,7 +8,9 @@ namespace DemoConverter.Services
     {
         Task<VenueData> ExtractZipAsync(IFormFile zipFile);
         Task<byte[]> CreateZipAsync(VenueData data);
-        public List<SbPlace> GetPlacesFromText(string placesText);
-        public List<SbSector> GetSectorsFromText(string sectorsText);
+        List<SbPlace> GetPlacesFromText(string placesText);
+        List<SbSector> GetSectorsFromText(string sectorsText);
+        string EditPlaces(List<SbPlace> places);
+        string EditSectors(List<SbSector> sectors);
     }
 }

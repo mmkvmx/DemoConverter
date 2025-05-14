@@ -70,3 +70,4 @@ F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\refint\DemoConverter.dl
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\DemoConverter.pdb
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\DemoConverter.genruntimeconfig.cache
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\ref\DemoConverter.dll
+F:\GORBILET\DemoConverter\DemoConverter\bin\Debug\net9.0\CsvHelper.dll
