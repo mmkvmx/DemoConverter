@@ -5,8 +5,7 @@ import './index.scss'
 import axios from 'axios';
 import ConversionResult from './components/ConversionResult'; 
 function App() {
-  const [status, setStatus] = React.useState("");
-  const [submitted, setSubmitted] = React.useState(false);
+  
   return (
     <div className="App">
       <div className="text-center">

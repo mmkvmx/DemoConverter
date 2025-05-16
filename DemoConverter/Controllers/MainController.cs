@@ -18,13 +18,14 @@ namespace DemoConverter.Controllers
         private readonly IMemoryCache _cache;
         readonly IZipService _zipService;
         readonly ISvgService _svgService;
-
-        public MainController(IZipService zipService, ISvgService svgService, IMemoryCache cache, ILogger<MainController> logger)
+        readonly IWebHostEnvironment _env;
+        public MainController(IZipService zipService, ISvgService svgService, IMemoryCache cache, ILogger<MainController> logger, IWebHostEnvironment env)
         {
             _zipService = zipService;
             _svgService = svgService;
             _cache = cache;
             _logger = logger;
+            _env = env;
         }
 
         [HttpPost("upload")]
@@ -79,16 +80,51 @@ namespace DemoConverter.Controllers
                 //объединяем места в единый блок с id="seats"
                 _svgService.MergeBlocks(xmlDoc, IdBlockType.Seats);
                 _svgService.ChangeAttributes(xmlDoc, "id", "seats", "places");
-                var svgContent = xmlDoc.OuterXml;
-                var svgBytes = System.Text.Encoding.UTF8.GetBytes(svgContent);
-                var fileName = $"converted_{DateTime.Now:yyyyMMddHHmmss}.svg";
 
+                var svgContent = xmlDoc.OuterXml;
+                string newPlaces = _zipService.EditPlaces(places);
+                string newSectors = _zipService.EditSectors(sectors);
+
+                //очищаем папку converted перед сохранением
+                _zipService.ClearConvertedFolder();
+
+                //сохраняем схему
+                _zipService.SaveFileAsync("Scheme", svgContent, "svg");
+                //сохраняем файлы мест и секторов
+                _zipService.SaveFileAsync("Sectors", newSectors, "txt");
+                _zipService.SaveFileAsync("Places", newPlaces, "txt");
+
+                // создаем архив
+                string[] fileNames = new string[]
+                {
+                    "Places.txt",
+                    "Scheme.svg",
+                    "Sectors.txt"
+                };
+                string zipFileName = "converted";
+                _zipService.CreateZipAsync(fileNames, zipFileName);
+                //для предпросмотра схемы на клиенте возвращаем xml
                 return Content(svgContent, "image/svg+xml");
             }
             catch (Exception ex)
             {
                 return StatusCode(500, "Ошибка при конвертации: " + ex.Message);
             }
+        }
+
+        [HttpGet("download")]
+        public IActionResult DownloadZip()
+        {
+            string folderPath = Path.Combine(_env.WebRootPath, "files", "converted");
+            string zipName = "converted.zip";
+            string zipPath = Path.Combine(folderPath, zipName);
+
+            if (!System.IO.File.Exists(zipPath))
+            {
+                return NotFound("ZIP-файл не найден.");
+            }
+
+            return PhysicalFile(zipPath, "application/zip", zipName);
         }
 
     }

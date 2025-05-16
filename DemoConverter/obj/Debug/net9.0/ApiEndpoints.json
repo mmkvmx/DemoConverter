@@ -52,6 +52,16 @@
   },
   {
     "ContainingType": "DemoConverter.Controllers.MainController",
+    "Method": "DownloadZip",
+    "RelativePath": "api/Main/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoConverter.Controllers.MainController",
     "Method": "Upload",
     "RelativePath": "api/Main/upload",
     "HttpMethod": "POST",

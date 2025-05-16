@@ -11,6 +11,11 @@ namespace DemoConverter.Services
 {
     public class ZipService : IZipService
     {
+        private readonly IWebHostEnvironment _env;
+        public ZipService(IWebHostEnvironment env)
+        {
+            _env = env;
+        }
         public async Task<VenueData> ExtractZipAsync(IFormFile zipFile)
         {
             // Проверяем, что файл не пуст и является zip-архивом
@@ -71,27 +76,32 @@ namespace DemoConverter.Services
                 throw new ArgumentException("Невозможно открыть ZIP-архив", ex);
             }
         }
-        public async Task<byte[]> CreateZipAsync(VenueData data)
+        public async Task<string> CreateZipAsync(string[] fileNames, string zipFileName)
         {
-            using var memoryStream = new MemoryStream();
-            using (var archive = new ZipArchive(memoryStream, ZipArchiveMode.Create, leaveOpen: true))
+            string folderPath = Path.Combine(_env.WebRootPath, "files", "converted");
+            string zipPath = Path.Combine(folderPath, $"{zipFileName}.zip");
+
+            // Удаляем старый архив, если есть
+            if (System.IO.File.Exists(zipPath))
+                System.IO.File.Delete(zipPath);
+
+            // Создаём ZIP
+            using (var zip = ZipFile.Open(zipPath, ZipArchiveMode.Create))
             {
-                // Добавляем файлы в архив
-                async Task AddFileAsync(string name, string content)
+                foreach (var fileName in fileNames)
                 {
-                    var entry = archive.CreateEntry(name);
-                    using var entryStream = entry.Open();
-                    using var writer = new StreamWriter(entryStream);
-                    await writer.WriteAsync(content);
+                    string filePath = Path.Combine(folderPath, fileName);
+
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        zip.CreateEntryFromFile(filePath, fileName); // имя внутри архива
+                    }
                 }
-                await AddFileAsync("Scheme.svg", data.Svg);
-                await AddFileAsync("Places.txt", data.PlacesRaw);
-                await AddFileAsync("Sectors.txt", data.SectorsRaw);
             }
 
-            memoryStream.Position = 0;
-            return memoryStream.ToArray();
+            return zipPath; // Можно использовать, чтобы отдать файл
         }
+
 
         public List<SbPlace> GetPlacesFromText(string placesText)
         {
@@ -224,5 +234,40 @@ namespace DemoConverter.Services
             return sb.ToString();
         }
 
+        public async Task SaveFileAsync(string fileName, string content, string extension)
+        {
+            // Путь к папке wwwroot/files/converted
+            string folderPath = Path.Combine(_env.WebRootPath, "files", "converted");
+            Directory.CreateDirectory(folderPath); // Создаём папку, если нет
+
+            // Полный путь к файлу
+            string fullPath = Path.Combine(folderPath, $"{fileName}.{extension}");
+
+            // Асинхронно сохраняем файл
+            await File.WriteAllTextAsync(fullPath, content);
+        }
+
+        //очистка папки converted
+        public void ClearConvertedFolder()
+        {
+            string folderPath = Path.Combine(_env.WebRootPath, "files", "converted");
+
+            if (!Directory.Exists(folderPath))
+                return;
+
+            var files = Directory.GetFiles(folderPath);
+
+            foreach (var file in files)
+            {
+                try
+                {
+                    System.IO.File.Delete(file);
+                }
+                catch (Exception ex)
+                {
+                    
+                }
+            }
+        }
     }
 }

@@ -475,56 +475,74 @@ namespace DemoConverter.Services
                     double width = GetAttributeValue(rectNode, "width");
                     double height = GetAttributeValue(rectNode, "height");
 
-                    // Центр текущего места
-                    double centerX = x + width / 2;
-                    double centerY = y + height / 2;
-
-                    // Новый размер
                     double newWidth = width + 2 * placeSizeWidth;
                     double newHeight = height + 2 * placeSizeHeight;
 
-                    // Центрированное смещение
-                    double newX = centerX - newWidth / 2 + placeMarginGorizontal;
-                    double newY = centerY - newHeight / 2 + placeMarginVertical;
+                    double newX = x - placeSizeWidth + placeMarginGorizontal;
+                    double newY = y - placeSizeHeight + placeMarginVertical;
 
-                    // Обновляем <rect>
+                    double centerX = newX + newWidth / 2;
+                    double centerY = newY + newHeight / 2;
+
+                    // Обновляем атрибуты прямоугольника
                     SetAttributeValue(rectNode, "x", newX.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "y", newY.ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(rectNode, "y", newY.ToString("F6", CultureInfo.InvariantCulture));
                     SetAttributeValue(rectNode, "width", newWidth.ToString("F3", CultureInfo.InvariantCulture));
                     SetAttributeValue(rectNode, "height", newHeight.ToString("F3", CultureInfo.InvariantCulture));
                     SetAttributeValue(rectNode, "rx", cornerRadius.ToString("F3", CultureInfo.InvariantCulture));
 
-                    // Обработка <text>
-                    XmlNode textNode = rectNode.ParentNode?.SelectSingleNode(".//ns:text", namespaceManager);
-                    string text = textNode.InnerText.Trim(); // убираем пробелы и переносы
-                    int length = text.Length;
-                    if (textNode != null && textNode.Attributes != null)
+                    XmlNode parentNode = rectNode.ParentNode;
+                    if (parentNode == null) continue;
+
+                    // *** ОБЪЕДИНЕНИЕ ТЕКСТОВ ***
+                    XmlNodeList textNodes = parentNode.SelectNodes(".//ns:text", namespaceManager);
+                    if (textNodes != null && textNodes.Count > 1)
                     {
-                        // Удаляем transform, если есть
+                        MergeTextNodes(textNodes[0], textNodes[1]);
+                    }
+
+                    // Работаем с одним (объединённым) текстовым узлом
+                    XmlNode textNode = parentNode.SelectSingleNode(".//ns:text", namespaceManager);
+                    if (textNode == null) continue;
+
+                    string text = textNode.InnerText.Trim();
+                    int length = text.Length;
+
+                    if (textNode.Attributes != null)
+                    {
                         if (textNode.Attributes["transform"] != null)
-                        {
                             textNode.Attributes.RemoveNamedItem("transform");
-                        }
 
-                        // Центрируем текст относительно прямоугольника
+                        if (textNode.Attributes["dy"] != null)
+                            textNode.Attributes.RemoveNamedItem("dy");
+
+                        SetAttributeValue(textNode, "dy", "0.15ex");
                         SetAttributeValue(textNode, "text-anchor", "middle");
-                        SetAttributeValue(textNode, "dominant-baseline", "middle"); // Добавьте это
-                        SetAttributeValue(textNode, "x", (centerX + placeMarginGorizontal).ToString("F3", CultureInfo.InvariantCulture));
-                        SetAttributeValue(textNode, "y", (centerY + placeMarginVertical).ToString("F3", CultureInfo.InvariantCulture)); // без +4
+                        SetAttributeValue(textNode, "dominant-baseline", "middle");
+                        SetAttributeValue(textNode, "x", centerX.ToString("F6", CultureInfo.InvariantCulture));
+                        SetAttributeValue(textNode, "y", centerY.ToString("F6", CultureInfo.InvariantCulture));
 
-
-                        // Стили
                         SetAttributeValue(textNode, "fill", "#121212");
                         SetAttributeValue(textNode, "stroke-opacity", "0");
-                        if (length >= 3) // если <text> больше трех символов устанавливаем меньшую длину строки, ужимаем до размеров rect
+
+                        if (length >= 3)
                         {
                             SetAttributeValue(textNode, "textLength", "15");
                             SetAttributeValue(textNode, "lengthAdjust", "spacingAndGlyphs");
                             SetAttributeValue(textNode, "font-weight", "700");
                         }
+                        else
+                        {
+                            if (textNode.Attributes["textLength"] != null)
+                                textNode.Attributes.RemoveNamedItem("textLength");
+                            if (textNode.Attributes["lengthAdjust"] != null)
+                                textNode.Attributes.RemoveNamedItem("lengthAdjust");
+
+                            SetAttributeValue(textNode, "font-weight", "600");
+                        }
+
                         SetAttributeValue(textNode, "font-size", "12px");
                         SetAttributeValue(textNode, "font-family", "Inter, Arial, Verdana");
-                        SetAttributeValue(textNode, "font-weight", "600");
                     }
                 }
                 catch (Exception ex)
@@ -533,6 +551,19 @@ namespace DemoConverter.Services
                 }
             }
         }
+
+        // Метод объединения двух <text> в один
+        private void MergeTextNodes(XmlNode firstTextNode, XmlNode secondTextNode)
+        {
+            if (firstTextNode == null || secondTextNode == null) return;
+
+            string combinedText = firstTextNode.InnerText.Trim() + " " + secondTextNode.InnerText.Trim();
+            firstTextNode.InnerText = combinedText;
+
+            XmlNode parent = secondTextNode.ParentNode;
+            parent?.RemoveChild(secondTextNode);
+        }
+
 
 
         public void ChangeAttributes(XmlDocument xDoc, string attrName, string targetValue, string newValue)
@@ -603,10 +634,10 @@ namespace DemoConverter.Services
                     double width = 2 * r;
                     double height = 2 * r;
 
-                    rect.SetAttribute("x", x.ToString("F3", CultureInfo.InvariantCulture));
-                    rect.SetAttribute("y", y.ToString("F3", CultureInfo.InvariantCulture));
-                    rect.SetAttribute("width", width.ToString("F3", CultureInfo.InvariantCulture));
-                    rect.SetAttribute("height", height.ToString("F3", CultureInfo.InvariantCulture));
+                    rect.SetAttribute("x", x.ToString("F6", CultureInfo.InvariantCulture));
+                    rect.SetAttribute("y", y.ToString("F6", CultureInfo.InvariantCulture));
+                    rect.SetAttribute("width", width.ToString("F6", CultureInfo.InvariantCulture));
+                    rect.SetAttribute("height", height.ToString("F6", CultureInfo.InvariantCulture));
 
                     // Копируем остальные атрибуты (например, class, id)
                     foreach (XmlAttribute attr in circleNode.Attributes)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4n+LhanHTbQhza7/U9b6KKShPrvv07yIqqnyeTiTJkI=",
+  "Hash": "BFsHCO6w25bAqlVKRSqhdrMIFcDtxKQqBaC/xvy3Qqw=",
   "Source": "DemoConverter",
   "BasePath": "_content/DemoConverter",
   "Mode": "Default",
@@ -10,11 +10,1136 @@
     {
       "Name": "DemoConverter\\wwwroot",
       "Source": "DemoConverter",
-      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
       "BasePath": "_content/DemoConverter",
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ww9s8kdpo6.gz",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Places#[.{fingerprint=ww9s8kdpo6}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ttu7ghjmx",
+      "Integrity": "Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-z81vw8syyi.gz",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Sectors#[.{fingerprint=z81vw8syyi}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xqgoq9kwnb",
+      "Integrity": "ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-ochgzhh48m.gz",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Scheme#[.{fingerprint=ochgzhh48m}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kirds10uqb",
+      "Integrity": "jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/converted#[.{fingerprint}]?.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b33ss3ul9h",
+      "Integrity": "WVkCeHWT8A3H5C26dOsolZzS73ysB75JGUZkiu6fxSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\converted.zip"
+    },
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Places#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ww9s8kdpo6",
+      "Integrity": "0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\Places.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Scheme#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ochgzhh48m",
+      "Integrity": "KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\Scheme.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Sectors#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z81vw8syyi",
+      "Integrity": "E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\Sectors.txt"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "files/converted/converted.b33ss3ul9h.zip",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WVkCeHWT8A3H5C26dOsolZzS73ysB75JGUZkiu6fxSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b33ss3ul9h"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/converted.zip"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WVkCeHWT8A3H5C26dOsolZzS73ysB75JGUZkiu6fxSw="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/converted.zip",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WVkCeHWT8A3H5C26dOsolZzS73ysB75JGUZkiu6fxSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WVkCeHWT8A3H5C26dOsolZzS73ysB75JGUZkiu6fxSw="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ww9s8kdpo6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000069930070"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14299"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.txt.gz",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ww9s8kdpo6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.ww9s8kdpo6.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ww9s8kdpo6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000069930070"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14299"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ww9s8kdpo6"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Places.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.ww9s8kdpo6.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ww9s8kdpo6"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Places.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.ww9s8kdpo6.txt.gz",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ww9s8kdpo6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ww9s8kdpo6"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Places.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z2lcY7BtbKtyvn9wVhQaOGU51P0ISU6g0Ii0dmGOpGw="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.ochgzhh48m.svg",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-ochgzhh48m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000006547888"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152720"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ochgzhh48m"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Scheme.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.ochgzhh48m.svg",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2228388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ochgzhh48m"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Scheme.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.ochgzhh48m.svg.gz",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-ochgzhh48m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ochgzhh48m"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Scheme.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.svg",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-ochgzhh48m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000006547888"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152720"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.svg",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2228388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.svg.gz",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-ochgzhh48m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIzzpGUxOpgs7wtTJTS0+kKC3WDqO5LzhyISqoM7lec="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-z81vw8syyi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004366812227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.txt.gz",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-z81vw8syyi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.z81vw8syyi.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-z81vw8syyi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004366812227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z81vw8syyi"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Sectors.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.z81vw8syyi.txt",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z81vw8syyi"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Sectors.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.z81vw8syyi.txt.gz",
+      "AssetFile": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-z81vw8syyi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 17:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z81vw8syyi"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Sectors.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ycjzZg7o+2UqYA+xvAFGtLzUahZ9r8fFpORw2bhQdg0="
+        }
+      ]
+    }
+  ]
 }

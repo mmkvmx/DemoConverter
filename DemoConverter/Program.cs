@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors("AllowFrontend3000");
-
+app.UseStaticFiles();
 app.UseAuthorization();
 
 app.MapControllers();
