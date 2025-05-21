@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b33ss3ul9h</Fingerprint>
-      <Integrity>WVkCeHWT8A3H5C26dOsolZzS73ysB75JGUZkiu6fxSw=</Integrity>
+      <Fingerprint>2ipcajxmky</Fingerprint>
+      <Integrity>GhIa3vekzp5+RTuWdlxdWLwr6jopZa6TTHtG4IiZJc0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\converted\converted.zip'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ww9s8kdpo6</Fingerprint>
-      <Integrity>0PaxkkdAVrL7WosMJSbhEEqQGI+ADe1b5DDWnmAEe2g=</Integrity>
+      <Fingerprint>ddk4y2k5up</Fingerprint>
+      <Integrity>35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\converted\Places.txt'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ochgzhh48m</Fingerprint>
-      <Integrity>KE1F32uVGivmm1vPt98LqjVLPCJYnkC+ILTj3wLvMNI=</Integrity>
+      <Fingerprint>0uhnqgguuv</Fingerprint>
+      <Integrity>CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\converted\Scheme.svg'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z81vw8syyi</Fingerprint>
-      <Integrity>E5ijTZcIbQxetxbNYijIy9y3inz//r5p3a1AsP1kF2g=</Integrity>
+      <Fingerprint>h1j1j86nfh</Fingerprint>
+      <Integrity>W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\converted\Sectors.txt'))</OriginalItemSpec>

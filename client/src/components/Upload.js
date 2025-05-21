@@ -2,27 +2,8 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import { useState } from "react";
-function Upload({ setStatus, setSubmitted }) {
-  const [file, setFile] = useState(null);
-  const handleFileChange = async (e) => {
-    const selectedFile = e.target.files[0];
-    if (!selectedFile) return;
-    setFile(selectedFile);
+function Upload() {
   
-    const formData = new FormData();
-    formData.append("file", selectedFile);
-  
-    try {
-      const response = await axios.post("https://localhost:7214/api/main/upload", formData);
-      const cache = response.data.cacheKey;
-      alert("Файл успешно загружен. Кэш: " + cache);
-      //setStatus("Файл загружен");
-      setSubmitted(true); // если нужно показать UI после загрузки
-    } catch (error) {
-      console.error(error);
-      //setStatus("Ошибка загрузки файла");
-    }
-  };
   return (
     <div className="container mt-4">
       <h3 className="mt-4">Загрузите исходные материалы</h3>
@@ -37,7 +18,6 @@ function Upload({ setStatus, setSubmitted }) {
             className="form-control"
             id="uploadedFile"
             accept=".zip"
-            onChange={handleFileChange}
           />
         </div>
 

@@ -5,6 +5,7 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using System.Globalization;
 using System.Text;
+using System.Xml;
 
 //Улучшаем эффективность кода, не сохраняя временные файлы на диске
 namespace DemoConverter.Services
@@ -246,6 +247,23 @@ namespace DemoConverter.Services
             // Асинхронно сохраняем файл
             await File.WriteAllTextAsync(fullPath, content);
         }
+
+        public async Task SaveUpdatedFilesAsync(VenueData data, List<SbPlace> places, List<SbSector> sectors, XmlDocument xmlDoc)
+        {
+            string folderPath = Path.Combine(_env.WebRootPath, "files", "converted");
+
+            // Очистка и создание директории
+            if (Directory.Exists(folderPath))
+                Directory.Delete(folderPath, true);
+
+            Directory.CreateDirectory(folderPath);
+
+            // Сохраняем SVG, Places, Sectors
+            await File.WriteAllTextAsync(Path.Combine(folderPath, "Scheme.svg"), xmlDoc.OuterXml);
+            await File.WriteAllTextAsync(Path.Combine(folderPath, "Places.txt"), EditPlaces(places));
+            await File.WriteAllTextAsync(Path.Combine(folderPath, "Sectors.txt"), EditSectors(sectors));
+        }
+
 
         //очистка папки converted
         public void ClearConvertedFolder()

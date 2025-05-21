@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WmnuU46q7Tg=",
+  "dgSpecHash": "h2Lw2gg/eYw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\DemoConverter.csproj",
+  "projectFilePath": "F:\\GORBILET\\DemoConverter\\DemoConverter\\DemoConverter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mamko\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\mamko\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",

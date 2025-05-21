@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\DemoConverter.csproj": {}
+    "F:\\GORBILET\\DemoConverter\\DemoConverter\\DemoConverter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\DemoConverter.csproj": {
+    "F:\\GORBILET\\DemoConverter\\DemoConverter\\DemoConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\DemoConverter.csproj",
+        "projectUniqueName": "F:\\GORBILET\\DemoConverter\\DemoConverter\\DemoConverter.csproj",
         "projectName": "DemoConverter",
-        "projectPath": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\DemoConverter.csproj",
+        "projectPath": "F:\\GORBILET\\DemoConverter\\DemoConverter\\DemoConverter.csproj",
         "packagesPath": "C:\\Users\\mamko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\",
+        "outputPath": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -176,29 +176,48 @@ namespace DemoConverter.Services
                 }
 
                 foreach (XmlNode node in nodesToReplace)
-                {
-                    if (node.ParentNode != null)
-                    {
-                        string cleanedText = "";
+{
+    if (node.ParentNode != null)
+    {
+        var parent = node.ParentNode;
 
-                        // Собираем весь текст из tspan, удаляя лишние пробелы, табы и переносы строк
-                        foreach (XmlNode child in node.ChildNodes)
-                        {
-                            if (child.NodeType == XmlNodeType.Text)
-                            {
-                                cleanedText += child.InnerText.Trim().Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("  ", "");
-                            }
-                        }
+        // Переносим координаты, если у tspan есть, а у родителя нет
+        var tspanX = node.Attributes?["x"]?.Value;
+        var tspanY = node.Attributes?["y"]?.Value;
 
-                        if (!string.IsNullOrEmpty(cleanedText))
-                        {
-                            XmlText newTextNode = xDoc.CreateTextNode(cleanedText);
-                            node.ParentNode.InsertBefore(newTextNode, node);
-                        }
+        if (!string.IsNullOrEmpty(tspanX) && parent.Attributes["x"] == null)
+        {
+            var attrX = xDoc.CreateAttribute("x");
+            attrX.Value = tspanX;
+            parent.Attributes.Append(attrX);
+        }
 
-                        node.ParentNode.RemoveChild(node);
-                    }
-                }
+        if (!string.IsNullOrEmpty(tspanY) && parent.Attributes["y"] == null)
+        {
+            var attrY = xDoc.CreateAttribute("y");
+            attrY.Value = tspanY;
+            parent.Attributes.Append(attrY);
+        }
+
+        // Собираем текст
+        string cleanedText = "";
+        foreach (XmlNode child in node.ChildNodes)
+        {
+            if (child.NodeType == XmlNodeType.Text)
+            {
+                cleanedText += child.InnerText.Trim().Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("  ", "");
+            }
+        }
+
+        if (!string.IsNullOrEmpty(cleanedText))
+        {
+            XmlText newTextNode = xDoc.CreateTextNode(cleanedText);
+            parent.InsertBefore(newTextNode, node);
+        }
+
+        parent.RemoveChild(node);
+    }
+}
             }
             xDoc.InnerXml = xDoc.OuterXml;
 
@@ -449,13 +468,12 @@ namespace DemoConverter.Services
         */
 
         // новый метод с переработанным центрированием и смещением текста внутри
-        public void ModifySvg(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, bool updateCircleToRect)
+        public void ModifySvg(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, bool updateCircleToRect, bool rectFill, double cornerRadius, double fontSize, int fontWeigth)
         {
-            const double cornerRadius = 2.0;
 
             if (updateCircleToRect)
             {
-                ConvertCirclesToRects(xDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight);
+                ConvertCirclesToRects(xDoc, placeMarginGorizontal, placeMarginVertical);
             }
 
             XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
@@ -473,13 +491,15 @@ namespace DemoConverter.Services
                     double x = GetAttributeValue(rectNode, "x");
                     double y = GetAttributeValue(rectNode, "y");
                     double width = GetAttributeValue(rectNode, "width");
+
                     double height = GetAttributeValue(rectNode, "height");
 
-                    double newWidth = width + 2 * placeSizeWidth;
-                    double newHeight = height + 2 * placeSizeHeight;
 
-                    double newX = x - placeSizeWidth + placeMarginGorizontal;
-                    double newY = y - placeSizeHeight + placeMarginVertical;
+                    double newWidth = width;
+                    double newHeight = height;
+
+                    double newX = x - placeMarginGorizontal;
+                    double newY = y - placeMarginVertical;
 
                     double centerX = newX + newWidth / 2;
                     double centerY = newY + newHeight / 2;
@@ -491,6 +511,10 @@ namespace DemoConverter.Services
                     SetAttributeValue(rectNode, "height", newHeight.ToString("F3", CultureInfo.InvariantCulture));
                     SetAttributeValue(rectNode, "rx", cornerRadius.ToString("F3", CultureInfo.InvariantCulture));
 
+                    if (rectFill)
+                    {
+                        SetAttributeValue(rectNode, "fill", "#A4E57A");
+                    }
                     XmlNode parentNode = rectNode.ParentNode;
                     if (parentNode == null) continue;
 
@@ -521,15 +545,14 @@ namespace DemoConverter.Services
                         SetAttributeValue(textNode, "dominant-baseline", "middle");
                         SetAttributeValue(textNode, "x", centerX.ToString("F6", CultureInfo.InvariantCulture));
                         SetAttributeValue(textNode, "y", centerY.ToString("F6", CultureInfo.InvariantCulture));
-
-                        SetAttributeValue(textNode, "fill", "#121212");
+                        SetAttributeValue(textNode, "fill", "#565C60");
                         SetAttributeValue(textNode, "stroke-opacity", "0");
 
                         if (length >= 3)
                         {
                             SetAttributeValue(textNode, "textLength", "15");
                             SetAttributeValue(textNode, "lengthAdjust", "spacingAndGlyphs");
-                            SetAttributeValue(textNode, "font-weight", "700");
+                            SetAttributeValue(textNode, "font-weight", (fontWeigth + 100).ToString(CultureInfo.InvariantCulture));
                         }
                         else
                         {
@@ -538,16 +561,80 @@ namespace DemoConverter.Services
                             if (textNode.Attributes["lengthAdjust"] != null)
                                 textNode.Attributes.RemoveNamedItem("lengthAdjust");
 
-                            SetAttributeValue(textNode, "font-weight", "600");
+                            SetAttributeValue(textNode, "font-weight", fontWeigth.ToString(CultureInfo.InvariantCulture));
                         }
 
-                        SetAttributeValue(textNode, "font-size", "12px");
+                        SetAttributeValue(textNode, "font-size", $"{fontSize.ToString(CultureInfo.InvariantCulture)}px");
                         SetAttributeValue(textNode, "font-family", "Inter, Arial, Verdana");
                     }
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
+                }
+            }
+            
+        }
+
+        // Коррекция мест: сдвиг и изменение размера
+       /* public void EditPlaceNumbers(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight)
+        {
+            XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
+            namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");
+
+            var rectNodes = xDoc.SelectNodes("//ns:g[@id='places']//ns:rect", namespaceManager);
+            if (rectNodes == null) return;
+
+            foreach (XmlNode rectNode in rectNodes)
+            {
+                if (rectNode.Attributes == null) continue;
+
+                try
+                {
+
+        */        
+
+        // удаление элемента, выбранного на фронте
+        public void DeleteXmlElement(XmlDocument xDoc, string elementName)
+        {
+            if (!string.IsNullOrEmpty(elementName))
+            {
+                try
+                {
+                    var nsmgr = new XmlNamespaceManager(xDoc.NameTable);
+                    nsmgr.AddNamespace("svg", "http://www.w3.org/2000/svg");
+
+                    var tempDoc = new XmlDocument();
+                    tempDoc.LoadXml(elementName);
+                    var targetElement = tempDoc.DocumentElement;
+                    if (targetElement == null) return;
+
+                    var candidates = xDoc.GetElementsByTagName(targetElement.Name);
+                    foreach (XmlNode node in candidates)
+                    {
+                        if (node.Attributes == null) continue;
+
+                        bool match = true;
+                        foreach (XmlAttribute attr in targetElement.Attributes)
+                        {
+                            var attrInNode = node.Attributes[attr.Name];
+                            if (attrInNode == null || attrInNode.Value != attr.Value)
+                            {
+                                match = false;
+                                break;
+                            }
+                        }
+
+                        if (match)
+                        {
+                            node.ParentNode?.RemoveChild(node);
+                            break; // удалили один — достаточно
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при удалении элемента: {ex.Message}");
                 }
             }
         }
@@ -603,7 +690,7 @@ namespace DemoConverter.Services
         }
 
 
-        public void ConvertCirclesToRects(XmlDocument xDoc, double marginGorizontal, double marginVertical, double placeSizeWidth, double placeSizeHeight)
+        public void ConvertCirclesToRects(XmlDocument xDoc, double marginGorizontal, double marginVertical)
         {
             XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
             namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");

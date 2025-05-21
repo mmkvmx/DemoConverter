@@ -46,6 +46,47 @@
         "Name": "customCss",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "rectFill",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "cornerRadius",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "fontSize",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "fontWeight",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoConverter.Controllers.MainController",
+    "Method": "Delete",
+    "RelativePath": "api/Main/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cacheKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "elementName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -57,7 +98,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "cacheKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

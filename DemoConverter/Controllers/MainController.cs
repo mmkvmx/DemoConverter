@@ -59,7 +59,7 @@ namespace DemoConverter.Controllers
             }
         }
         [HttpPost("convert")]
-        public IActionResult Convert([FromQuery] string cacheKey, [FromQuery] double placeMarginGorizontal = 0, [FromQuery] double placeMarginVertical = 0, [FromQuery] double placeSizeWidth = 0, [FromQuery] double placeSizeHeight = 0, [FromQuery] bool updateCircleToRect = false, [FromQuery] bool clearCss = false, [FromQuery] string customCss = "")
+        public IActionResult Convert([FromQuery] string cacheKey, [FromQuery] double placeMarginGorizontal = 0, [FromQuery] double placeMarginVertical = 0, [FromQuery] double placeSizeWidth = 0, [FromQuery] double placeSizeHeight = 0, [FromQuery] bool updateCircleToRect = false, [FromQuery] bool clearCss = false, [FromQuery] string customCss = "", [FromQuery] bool rectFill = false, [FromQuery] double cornerRadius = 0, [FromQuery] double fontSize = 9, [FromQuery] int fontWeight = 600)
         {
             if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
                 return BadRequest("Данные не найдены или устарели");
@@ -74,7 +74,7 @@ namespace DemoConverter.Controllers
                 _svgService.MarkSectors(xmlDoc, sectors);
                 _svgService.MarkPlaces(xmlDoc, places);
                 _svgService.ClearSvgXmlDoc(xmlDoc, clearCss, customCss);
-                _svgService.ModifySvg(xmlDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight, updateCircleToRect);
+                _svgService.ModifySvg(xmlDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight, updateCircleToRect, rectFill, cornerRadius, fontSize, fontWeight);
                 //объединяем сектора в единый блок с id="sectors"
                 _svgService.MergeBlocks(xmlDoc, IdBlockType.Sectors);
                 //объединяем места в единый блок с id="seats"
@@ -85,24 +85,16 @@ namespace DemoConverter.Controllers
                 string newPlaces = _zipService.EditPlaces(places);
                 string newSectors = _zipService.EditSectors(sectors);
 
-                //очищаем папку converted перед сохранением
-                _zipService.ClearConvertedFolder();
+                // сохраняем обратно
+                venueData.Svg = svgContent;
+                venueData.PlacesRaw = newPlaces;
+                venueData.SectorsRaw = newSectors;
+                // проверить
+                venueData.PlacesList = _zipService.GetPlacesFromText(newPlaces);
+                venueData.SectorsList = _zipService.GetSectorsFromText(newSectors);
 
-                //сохраняем схему
-                _zipService.SaveFileAsync("Scheme", svgContent, "svg");
-                //сохраняем файлы мест и секторов
-                _zipService.SaveFileAsync("Sectors", newSectors, "txt");
-                _zipService.SaveFileAsync("Places", newPlaces, "txt");
+                _cache.Set(cacheKey, venueData); // обязательно обновляем кэш
 
-                // создаем архив
-                string[] fileNames = new string[]
-                {
-                    "Places.txt",
-                    "Scheme.svg",
-                    "Sectors.txt"
-                };
-                string zipFileName = "converted";
-                _zipService.CreateZipAsync(fileNames, zipFileName);
                 //для предпросмотра схемы на клиенте возвращаем xml
                 return Content(svgContent, "image/svg+xml");
             }
@@ -112,20 +104,46 @@ namespace DemoConverter.Controllers
             }
         }
 
-        [HttpGet("download")]
-        public IActionResult DownloadZip()
+        [HttpPost("delete")]
+        public IActionResult Delete([FromQuery] string cacheKey, [FromQuery] string elementName)
         {
-            string folderPath = Path.Combine(_env.WebRootPath, "files", "converted");
-            string zipName = "converted.zip";
-            string zipPath = Path.Combine(folderPath, zipName);
+            if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
+                return BadRequest("Данные не найдены");
+
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(venueData.Svg);
+
+            _svgService.DeleteXmlElement(xmlDoc, elementName);
+
+            venueData.Svg = xmlDoc.OuterXml;
+            _cache.Set(cacheKey, venueData);
+
+            string svgContent = venueData.Svg;
+            return Content(svgContent, "image/svg+xml");
+        }
+
+        [HttpGet("download")]
+        public async Task<IActionResult> DownloadZip([FromQuery] string cacheKey)
+        {
+            if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
+                return NotFound("Данные не найдены или устарели.");
+
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(venueData.Svg);
+
+            // Сохраняем файлы
+            await _zipService.SaveUpdatedFilesAsync(venueData, venueData.PlacesList, venueData.SectorsList, xmlDoc);
+
+            // Создаём ZIP
+            string[] filesToZip = { "Scheme.svg", "Places.txt", "Sectors.txt" };
+            string zipPath = await _zipService.CreateZipAsync(filesToZip, "converted");
 
             if (!System.IO.File.Exists(zipPath))
-            {
                 return NotFound("ZIP-файл не найден.");
-            }
 
-            return PhysicalFile(zipPath, "application/zip", zipName);
+            return PhysicalFile(zipPath, "application/zip", "converted.zip");
         }
+
 
     }
 }
