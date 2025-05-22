@@ -104,6 +104,29 @@ namespace DemoConverter.Controllers
             }
         }
 
+        [HttpPost("edit")]
+        public IActionResult Edit([FromQuery] string cacheKey, [FromQuery] double placeMarginGorizontal = 0, [FromQuery] double placeMarginVertical = 0, [FromQuery] double placeSizeWidth = 0, [FromQuery] double placeSizeHeight = 0, [FromQuery] bool rectFill = false, [FromQuery] double cornerRadius = 0, [FromQuery] double fontSize = 9, [FromQuery] int fontWeight = 600)
+        {
+            if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
+                return BadRequest("Данные не найдены или устарели");
+            try
+            {
+                var xmlDoc = new XmlDocument();
+                xmlDoc.LoadXml(venueData.Svg);
+                _svgService.EditPlaces(xmlDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight, cornerRadius, rectFill, fontSize, fontWeight);
+                var svgContent = xmlDoc.OuterXml;
+                // сохраняем обратно
+                venueData.Svg = svgContent;
+                _cache.Set(cacheKey, venueData); // обязательно обновляем кэш
+                //для предпросмотра схемы на клиенте возвращаем xml
+                return Content(svgContent, "image/svg+xml");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Ошибка при редактировании: " + ex.Message);
+            }
+        }
+
         [HttpPost("delete")]
         public IActionResult Delete([FromQuery] string cacheKey, [FromQuery] string elementName)
         {

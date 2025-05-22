@@ -109,6 +109,62 @@
   },
   {
     "ContainingType": "DemoConverter.Controllers.MainController",
+    "Method": "Edit",
+    "RelativePath": "api/Main/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cacheKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeMarginGorizontal",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeMarginVertical",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeSizeWidth",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "placeSizeHeight",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "rectFill",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "cornerRadius",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "fontSize",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "fontWeight",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoConverter.Controllers.MainController",
     "Method": "Upload",
     "RelativePath": "api/Main/upload",
     "HttpMethod": "POST",

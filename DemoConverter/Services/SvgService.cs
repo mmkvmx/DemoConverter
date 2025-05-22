@@ -543,6 +543,7 @@ namespace DemoConverter.Services
                         SetAttributeValue(textNode, "dy", "0.15ex");
                         SetAttributeValue(textNode, "text-anchor", "middle");
                         SetAttributeValue(textNode, "dominant-baseline", "middle");
+
                         SetAttributeValue(textNode, "x", centerX.ToString("F6", CultureInfo.InvariantCulture));
                         SetAttributeValue(textNode, "y", centerY.ToString("F6", CultureInfo.InvariantCulture));
                         SetAttributeValue(textNode, "fill", "#565C60");
@@ -576,8 +577,8 @@ namespace DemoConverter.Services
             
         }
 
-        // Коррекция мест: сдвиг и изменение размера
-       /* public void EditPlaceNumbers(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight)
+        // Редактирование, чтобы избавиться от лишних вызовов обработки текстовых доков 
+        public void EditPlaces(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, double cornerRadius, bool rectFill, double fontSize, int fontWeigth)
         {
             XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
             namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");
@@ -591,9 +592,61 @@ namespace DemoConverter.Services
 
                 try
                 {
+                    double x = GetAttributeValue(rectNode, "x");
+                    double y = GetAttributeValue(rectNode, "y");
+                    double width = GetAttributeValue(rectNode, "width");
 
-        */        
+                    double height = GetAttributeValue(rectNode, "height");
 
+
+                    double newWidth = placeSizeWidth > 0 ? placeSizeWidth: width;
+                    double newHeight = placeSizeHeight > 0 ? placeSizeHeight : height;
+
+                    double newX = x - placeMarginGorizontal;
+                    double newY = y - placeMarginVertical;
+
+                    double centerX = newX + newWidth / 2;
+                    double centerY = newY + newHeight / 2;
+
+                    SetAttributeValue(rectNode, "height", newHeight.ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(rectNode, "width", newWidth.ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(rectNode, "x", newX.ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(rectNode, "y", newY.ToString("F6", CultureInfo.InvariantCulture));
+                    SetAttributeValue(rectNode, "rx", cornerRadius.ToString("F3", CultureInfo.InvariantCulture));
+                    if (rectFill)
+                    {
+                        SetAttributeValue(rectNode, "fill", "#A4E57A");
+                    }
+                    XmlNode parentNode = rectNode.ParentNode;
+                    if (parentNode == null) continue;
+
+                    XmlNode textNode = parentNode.SelectSingleNode(".//ns:text", namespaceManager);
+                    if (textNode == null) continue;
+
+                    string text = textNode.InnerText.Trim();
+                    int length = text.Length;
+                    if (textNode.Attributes != null)
+                    {
+                        if (length >= 3)
+                        {
+                            SetAttributeValue(textNode, "font-weight", (fontWeigth + 100).ToString(CultureInfo.InvariantCulture));
+                        }
+                        else
+                        {
+                            SetAttributeValue(textNode, "font-weight", fontWeigth.ToString(CultureInfo.InvariantCulture));
+                        }
+                        SetAttributeValue(textNode, "text-anchor", "middle");
+                        SetAttributeValue(textNode, "font-size", $"{fontSize.ToString(CultureInfo.InvariantCulture)}px");
+                        SetAttributeValue(textNode, "x", centerX.ToString("F6", CultureInfo.InvariantCulture));
+                        SetAttributeValue(textNode, "y", centerY.ToString("F6", CultureInfo.InvariantCulture));
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при редактировании мест: {ex.Message}");
+                }
+            }
+        }
         // удаление элемента, выбранного на фронте
         public void DeleteXmlElement(XmlDocument xDoc, string elementName)
         {
