@@ -1,3 +1,0 @@
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\wwwroot\files\converted\Places.txt
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\wwwroot\files\converted\Sectors.txt
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\wwwroot\files\converted\Scheme.svg

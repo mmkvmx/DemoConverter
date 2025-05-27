@@ -1,13 +1,76 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import { SvgContext } from "./SvgProvider";
+
 function Upload() {
-  
+  const [file, setFile] = useState(null);
+  const [cacheKey, setCacheKey] = useState("");
+  const [updateCircleToRect, setUpdateCircleToRect] = useState(true);
+  const [clearCss, setClearCss] = useState(true);
+  const navigate = useNavigate();
+  const { setSvg } = useContext(SvgContext);
+
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    setFile(selectedFile);
+    if (selectedFile) {
+      handleUpload(selectedFile);
+    }
+  };
+
+  const handleUpload = async (uploadFile) => {
+    const fileToUpload = uploadFile || file;
+    if (!fileToUpload) return;
+
+    const formData = new FormData();
+    formData.append("file", fileToUpload);
+
+    try {
+      const response = await axios.post("https://localhost:7214/api/main/upload", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+      setCacheKey(response.data.cacheKey);
+      alert("Файл загружен! cacheKey: " + response.data.cacheKey);
+      localStorage.setItem("cacheKey", response.data.cacheKey);
+    } catch (error) {
+      alert("Ошибка загрузки файла");
+    }
+  };
+
+  const handleConvert = async () => {
+    if (!cacheKey) {
+      alert("Сначала загрузите архив!");
+      return;
+    }
+    try {
+      const response = await axios.post(
+        "https://localhost:7214/api/main/convert",
+        null,
+        {
+          params: {
+            cacheKey,
+            updateCircleToRect,
+            clearCss,
+          },
+          headers: { "Content-Type": "application/json" },
+          responseType: "text",
+        }
+      );
+      setSvg(response.data); // сохраняем svg в контекст
+      alert("Конвертация завершена!");
+      navigate('/result'); // просто переход, svg уже в контексте
+    } catch (error) {
+      alert("Ошибка конвертации");
+    }
+  };
+
   return (
     <div className="container mt-4">
       <h3 className="mt-4">Загрузите исходные материалы</h3>
-
       <form className="mt-3 needs-validation" noValidate>
         <div className="mb-3">
           <label htmlFor="uploadedFile" className="form-label">
@@ -18,6 +81,7 @@ function Upload() {
             className="form-control"
             id="uploadedFile"
             accept=".zip"
+            onChange={handleFileChange}
           />
         </div>
 
@@ -26,7 +90,8 @@ function Upload() {
             type="checkbox"
             className="form-check-input"
             id="updateCircleToRectCheckbox"
-            defaultChecked
+            checked={updateCircleToRect}
+            onChange={e => setUpdateCircleToRect(e.target.checked)}
           />
           <label htmlFor="updateCircleToRectCheckbox" className="form-check-label">
             Заменять круглые места на прямоугольные
@@ -38,65 +103,18 @@ function Upload() {
             type="checkbox"
             className="form-check-input"
             id="clearCssCheckbox"
-            defaultChecked
+            checked={clearCss}
+            onChange={e => setClearCss(e.target.checked)}
           />
           <label htmlFor="clearCssCheckbox" className="form-check-label">
             Очистить CSS-стили и все лишние атрибуты
           </label>
         </div>
 
-        <div className="mb-3">
-          <label htmlFor="customCssTextarea">Введите альтернативный CSS:</label>
-          <textarea
-            id="customCssTextarea"
-            rows="7"
-            className="form-control"
-            defaultValue={`g {
-  fill: #fff;
-  stroke: #000;
-}
-#places .place text {
-  font-size: 9px;
-}`}
-          />
-        </div>
-
-        <b>Коррекция нумерации мест:</b>
-        <div className="mb-3 d-flex align-items-center gap-3">
-          <span>По горизонтали</span>
-          <input
-            type="number"
-            className="form-control"
-            style={{ width: "120px" }}
-          />
-          <span>По вертикали</span>
-          <input
-            type="number"
-            className="form-control"
-            style={{ width: "120px" }}
-          />
-        </div>
-
-        <b>Коррекция размера мест:</b>
-        <div className="mb-3 d-flex align-items-center gap-3">
-          <span>По ширине</span>
-          <input
-            type="number"
-            className="form-control"
-            style={{ width: "120px" }}
-          />
-          <span>По высоте</span>
-          <input
-            type="number"
-            className="form-control"
-            style={{ width: "120px" }}
-          />
-        </div>
-
         <button
           type="button"
           className="btn btn-primary"
-          
+          onClick={handleConvert}
         >
           Конвертировать
         </button>

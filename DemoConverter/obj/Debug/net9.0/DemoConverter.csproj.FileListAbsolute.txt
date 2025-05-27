@@ -21,12 +21,6 @@ C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoCon
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets\msbuild.DemoConverter.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets\msbuild.DemoConverter.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets\msbuild.build.DemoConverter.props
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.DemoConverter.props
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.DemoConverter.props
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\DemoConv.F0440A3B.Up2Date
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\DemoConverter.dll
@@ -72,9 +66,10 @@ F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\DemoConverter.genruntim
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\ref\DemoConverter.dll
 F:\GORBILET\DemoConverter\DemoConverter\bin\Debug\net9.0\CsvHelper.dll
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\bin\Debug\net9.0\CsvHelper.dll
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\66x19peg9d-ww9s8kdpo6.gz
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\ig3x38cius-z81vw8syyi.gz
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\iv3tsr8ppd-ochgzhh48m.gz
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\66x19peg9d-ddk4y2k5up.gz
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\ig3x38cius-h1j1j86nfh.gz
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\iv3tsr8ppd-0uhnqgguuv.gz
+C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\66x19peg9d-ddk4y2k5up.gz
+C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\iv3tsr8ppd-0uhnqgguuv.gz
+C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\ig3x38cius-h1j1j86nfh.gz
+C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.build.json.cache

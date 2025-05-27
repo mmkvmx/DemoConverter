@@ -7,10 +7,11 @@ namespace DemoConverter.Services
         public HashSet<int> MarkPlaces(XmlDocument xDoc, List<SbPlace> sbPlaces, string sbSectorId = null);
         public void MarkSectors(XmlDocument xDoc, List<SbSector> sbSectors);
         public void ClearSvgXmlDoc(XmlDocument xDoc, bool clearCss = false, string customCss = "");
-        public void ModifySvg(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, bool updateCircleToRect = false, bool rectFill = false, double cornerRadius = 0, double fontSize = 9, int fontWeight = 600);
+        public void ModifySvg(XmlDocument xDoc, bool updateCircleToRect = false);
         public void EditPlaces(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, double cornerRadius, bool rectFill, double fontSize, int fontWeigth);
+        public void MoveElement(XmlDocument xDoc, string elementId, double dx, double dy);
         public void DeleteXmlElement(XmlDocument xDoc, string elementName);
-        public void ConvertCirclesToRects(XmlDocument xDoc, double marginGorizontal, double marginVertical);
+        public void ConvertCirclesToRects(XmlDocument xDoc);
         public double GetAttributeValue(XmlNode node, string attributeName);
         public void SetAttributeValue(XmlNode node, string attributeName, string value);
         void MergeBlocks(XmlDocument xDoc, IdBlockType idType);

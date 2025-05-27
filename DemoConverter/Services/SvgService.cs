@@ -347,133 +347,14 @@ namespace DemoConverter.Services
             xDoc.InnerXml = Regex.Replace(xDoc.InnerXml, emptyLinePattern, "", RegexOptions.Multiline);
 
         }
-        /*
-        public void ModifySvg(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, bool updateCircleToRect = false)
-        {
-            // Параметры для изменения размеров и отступов
-            const double cornerRadius = 10.0; // Скругление углов
-
-            // Преобразуем <circle> в <rect>, если это необходимо
-            if (updateCircleToRect)
-            {
-                ConvertCirclesToRects(xDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight);
-            }
-
-            // Получаем все элементы <rect>, находящиеся внутри <g id="seats">, то есть не все ректы, а только те что места
-            XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
-            namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");
-
-            var rectNodes = xDoc.SelectNodes("//ns:g[@id='seats']//ns:rect", namespaceManager);
-
-            if (rectNodes == null) return;
-
-            foreach (XmlNode rectNode in rectNodes)
-            {
-                if (rectNode.Attributes == null) continue;
-
-                try
-                {
-                    // Получаем текущие значения атрибутов
-                    double x = GetAttributeValue(rectNode, "x");
-                    double y = GetAttributeValue(rectNode, "y");
-                    double width = GetAttributeValue(rectNode, "width");
-                    double height = GetAttributeValue(rectNode, "height");
-
-                    // Вычисляем новые значения для прямоугольника
-                    double newX = x - placeMarginGorizontal;
-                    double newY = y + placeMarginVertical;
-                    double newWidth = width + 2 * placeSizeWidth;
-                    double newHeight = height + 2 * placeSizeHeight;
-
-
-                    // Корректируем позицию текста обозначчающение номер места в зависимости от ширины цифр
-                    XmlNode textNode = rectNode.ParentNode?.SelectSingleNode(".//ns:text", namespaceManager);
-                    if (textNode != null && textNode.Attributes != null)
-                    {
-                        if (textNode.InnerText.ToString().Length == 2)
-                        {
-                            newX += 4;
-                        }
-                        if (textNode.InnerText.ToString().Length >= 3)
-                        {
-                            newX += 6;
-                        }
-                    }
-
-
-
-                    // Устанавливаем новые значения атрибутов для прямоугольника
-                    SetAttributeValue(rectNode, "x", newX.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "y", newY.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "width", newWidth.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "height", newHeight.ToString("F3", CultureInfo.InvariantCulture));
-
-                    // Добавляем дополнительные атрибуты для прямоугольника
-                    //SetAttributeValue(rectNode, "rx", cornerRadius.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "rx", "5.0000");
-                    //SetAttributeValue(rectNode, "fill", "#E9ECEE"); //бекграунд места
-                    //SetAttributeValue(rectNode, "stroke", "#E9ECEE"); //обводка места
-                    //SetAttributeValue(rectNode, "stroke-width", "1");//толщина обводки места
-
-
-
-                    // Корректируем позицию текста внутри <g>
-                    /*
-                    XmlNode textNode = rectNode.ParentNode?.SelectSingleNode(".//ns:text", namespaceManager);
-                    if (textNode != null && textNode.Attributes != null)
-                    {
-                        
-                        string transform = textNode.Attributes["transform"]?.Value;
-                        string pattern = @"matrix\(1 0 0 1 ([\d\.-]+) ([\d\.-]+)\)";
-                        string newTransform = Regex.Replace(transform, pattern, match =>
-                        {
-                            // Парсим координаты из группы
-                            double x = double.Parse(match.Groups[1].Value, CultureInfo.InvariantCulture);
-                            double y = double.Parse(match.Groups[2].Value, CultureInfo.InvariantCulture);
-
-                            // Добавляем margin к x и y 
-                            y -= 2;
-                            if (textNode.InnerText.ToString().Length > 2)
-                            {
-                                x += placeMarginGorizontal + 2;
-                            }
-                            else
-                            {
-                                x += placeMarginGorizontal - 1;
-                            }
-                            
-                            // Возвращаем обновленную строку
-                            return $"matrix(1 0 0 1 {x:F3} {y:F3})"; // Формат с четырьмя знаками после запятой
-                        });
-
-                        textNode.Attributes["transform"].Value = newTransform.Replace(',', '.');
-                        
-
-                        SetAttributeValue(textNode, "fill", "#121212");//цвет цифр
-                        SetAttributeValue(textNode, "stroke-opacity", "0");
-                        SetAttributeValue(textNode, "font-size", "12px");
-                        SetAttributeValue(textNode, "font-family", "Inter, Arial, Verdana");
-                        SetAttributeValue(textNode, "font-weight", "800");
-                    }
-
-                }
-                catch (Exception ex)
-                {
-                    // Логируем проблему или продолжаем обработку
-                    Console.WriteLine(ex.Message);
-                }
-            }
-            
-        }
-        */
-
+        
         // новый метод с переработанным центрированием и смещением текста внутри
-        public void ModifySvg(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, bool updateCircleToRect, bool rectFill, double cornerRadius, double fontSize, int fontWeigth)
+        public void ModifySvg(XmlDocument xDoc, bool updateCircleToRect)
         {
 
             if (updateCircleToRect)
             {
-                ConvertCirclesToRects(xDoc, placeMarginGorizontal, placeMarginVertical);
+                ConvertCirclesToRects(xDoc);
             }
 
             XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
@@ -498,23 +379,12 @@ namespace DemoConverter.Services
                     double newWidth = width;
                     double newHeight = height;
 
-                    double newX = x - placeMarginGorizontal;
-                    double newY = y - placeMarginVertical;
+                    double newX = x;
+                    double newY = y;
 
                     double centerX = newX + newWidth / 2;
                     double centerY = newY + newHeight / 2;
 
-                    // Обновляем атрибуты прямоугольника
-                    SetAttributeValue(rectNode, "x", newX.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "y", newY.ToString("F6", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "width", newWidth.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "height", newHeight.ToString("F3", CultureInfo.InvariantCulture));
-                    SetAttributeValue(rectNode, "rx", cornerRadius.ToString("F3", CultureInfo.InvariantCulture));
-
-                    if (rectFill)
-                    {
-                        SetAttributeValue(rectNode, "fill", "#A4E57A");
-                    }
                     XmlNode parentNode = rectNode.ParentNode;
                     if (parentNode == null) continue;
 
@@ -553,7 +423,6 @@ namespace DemoConverter.Services
                         {
                             SetAttributeValue(textNode, "textLength", "15");
                             SetAttributeValue(textNode, "lengthAdjust", "spacingAndGlyphs");
-                            SetAttributeValue(textNode, "font-weight", (fontWeigth + 100).ToString(CultureInfo.InvariantCulture));
                         }
                         else
                         {
@@ -562,11 +431,11 @@ namespace DemoConverter.Services
                             if (textNode.Attributes["lengthAdjust"] != null)
                                 textNode.Attributes.RemoveNamedItem("lengthAdjust");
 
-                            SetAttributeValue(textNode, "font-weight", fontWeigth.ToString(CultureInfo.InvariantCulture));
                         }
 
-                        SetAttributeValue(textNode, "font-size", $"{fontSize.ToString(CultureInfo.InvariantCulture)}px");
-                        SetAttributeValue(textNode, "font-family", "Inter, Arial, Verdana");
+                        SetAttributeValue(textNode, "font-family", "Consolas, Courier New, monospace");
+                        SetAttributeValue(textNode, "font-size", "9");
+
                     }
                 }
                 catch (Exception ex)
@@ -574,7 +443,24 @@ namespace DemoConverter.Services
                     Console.WriteLine(ex.Message);
                 }
             }
-            
+
+            // Применение стилей к надписям
+            var captionNodes = xDoc.SelectNodes("//ns:g[@id='adds']//ns:text", namespaceManager);
+            if (captionNodes == null) return;
+
+            foreach (XmlNode captionNode in captionNodes)
+            {
+                if (captionNode.Attributes == null) continue;
+                try
+                {
+                    SetAttributeValue(captionNode, "font-family", "Arial, Inter, Veradana");
+                    SetAttributeValue(captionNode, "fill", "#565C60");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
         }
 
         // Редактирование, чтобы избавиться от лишних вызовов обработки текстовых доков 
@@ -646,6 +532,41 @@ namespace DemoConverter.Services
                     Console.WriteLine($"Ошибка при редактировании мест: {ex.Message}");
                 }
             }
+        }
+
+        // Сдвиги отдельных элементов
+        public void MoveElement(XmlDocument xDoc, string elementId, double dx, double dy)
+        {
+            XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
+            namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");
+
+            // Ищем элемент по id
+            var node = xDoc.SelectSingleNode($"//*[@id='{elementId}']", namespaceManager);
+            if (node == null) return;
+
+            // Сдвигаем координаты для rect, circle, text и т.д.
+            if (node.Name == "rect" || node.Name == "image")
+            {
+                double x = GetAttributeValue(node, "x");
+                double y = GetAttributeValue(node, "y");
+                SetAttributeValue(node, "x", (x + dx).ToString("F3", CultureInfo.InvariantCulture));
+                SetAttributeValue(node, "y", (y + dy).ToString("F3", CultureInfo.InvariantCulture));
+            }
+            else if (node.Name == "circle")
+            {
+                double cx = GetAttributeValue(node, "cx");
+                double cy = GetAttributeValue(node, "cy");
+                SetAttributeValue(node, "cx", (cx + dx).ToString("F3", CultureInfo.InvariantCulture));
+                SetAttributeValue(node, "cy", (cy + dy).ToString("F3", CultureInfo.InvariantCulture));
+            }
+            else if (node.Name == "text")
+            {
+                double x = GetAttributeValue(node, "x");
+                double y = GetAttributeValue(node, "y");
+                SetAttributeValue(node, "x", (x + dx).ToString("F3", CultureInfo.InvariantCulture));
+                SetAttributeValue(node, "y", (y + dy).ToString("F3", CultureInfo.InvariantCulture));
+            }
+            // Можно добавить обработку других типов элементов при необходимости
         }
         // удаление элемента, выбранного на фронте
         public void DeleteXmlElement(XmlDocument xDoc, string elementName)
@@ -743,7 +664,7 @@ namespace DemoConverter.Services
         }
 
 
-        public void ConvertCirclesToRects(XmlDocument xDoc, double marginGorizontal, double marginVertical)
+        public void ConvertCirclesToRects(XmlDocument xDoc)
         {
             XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
             namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");
@@ -768,8 +689,8 @@ namespace DemoConverter.Services
                     XmlElement rect = doc.CreateElement("rect", doc.DocumentElement.NamespaceURI);
 
                     // Вычисляем координаты и размеры прямоугольника (координаты круга - центр, координаты прямоугольника края, поэтому учитываем радиус)
-                    double x = cx - r + marginGorizontal;
-                    double y = cy - r + marginVertical;
+                    double x = cx - r;
+                    double y = cy - r;
 
                     double width = 2 * r;
                     double height = 2 * r;

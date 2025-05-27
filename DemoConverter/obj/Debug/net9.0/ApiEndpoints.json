@@ -165,6 +165,37 @@
   },
   {
     "ContainingType": "DemoConverter.Controllers.MainController",
+    "Method": "Margin",
+    "RelativePath": "api/Main/margin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cacheKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "elementId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dx",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "dy",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoConverter.Controllers.MainController",
     "Method": "Upload",
     "RelativePath": "api/Main/upload",
     "HttpMethod": "POST",

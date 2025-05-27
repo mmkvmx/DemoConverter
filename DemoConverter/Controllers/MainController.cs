@@ -74,7 +74,7 @@ namespace DemoConverter.Controllers
                 _svgService.MarkSectors(xmlDoc, sectors);
                 _svgService.MarkPlaces(xmlDoc, places);
                 _svgService.ClearSvgXmlDoc(xmlDoc, clearCss, customCss);
-                _svgService.ModifySvg(xmlDoc, placeMarginGorizontal, placeMarginVertical, placeSizeWidth, placeSizeHeight, updateCircleToRect, rectFill, cornerRadius, fontSize, fontWeight);
+                _svgService.ModifySvg(xmlDoc, updateCircleToRect);
                 //объединяем сектора в единый блок с id="sectors"
                 _svgService.MergeBlocks(xmlDoc, IdBlockType.Sectors);
                 //объединяем места в единый блок с id="seats"
@@ -126,7 +126,19 @@ namespace DemoConverter.Controllers
                 return StatusCode(500, "Ошибка при редактировании: " + ex.Message);
             }
         }
-
+        [HttpPost("margin")]
+        public IActionResult Margin([FromQuery] string cacheKey, [FromQuery] string elementId, [FromQuery] double dx = 0, [FromQuery] double dy = 0)
+        {
+            if (!_cache.TryGetValue(cacheKey, out VenueData venueData))
+                return BadRequest("Данные не найдены или устарели");
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(venueData.Svg);
+            _svgService.MoveElement(xmlDoc, elementId, dx, dy);
+            venueData.Svg = xmlDoc.OuterXml;
+            _cache.Set(cacheKey, venueData);
+            string svgContent = venueData.Svg;
+            return Content(svgContent, "image/svg+xml");
+        }
         [HttpPost("delete")]
         public IActionResult Delete([FromQuery] string cacheKey, [FromQuery] string elementName)
         {
