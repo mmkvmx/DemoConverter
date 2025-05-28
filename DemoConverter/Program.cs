@@ -10,6 +10,7 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+
 // Добавление сервисов в контейнер
 builder.Services.AddScoped<IZipService, ZipService>(); // Регистрация сервиса IZipService для работы с архивом
 builder.Services.AddScoped<ISvgService, SvgService>(); // Регистрация сервиса обработки svg

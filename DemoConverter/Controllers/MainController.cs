@@ -80,7 +80,7 @@ namespace DemoConverter.Controllers
                 //объединяем места в единый блок с id="seats"
                 _svgService.MergeBlocks(xmlDoc, IdBlockType.Seats);
                 _svgService.ChangeAttributes(xmlDoc, "id", "seats", "places");
-
+                _svgService.AssignUniqueIds(xmlDoc);
                 var svgContent = xmlDoc.OuterXml;
                 string newPlaces = _zipService.EditPlaces(places);
                 string newSectors = _zipService.EditSectors(sectors);
@@ -165,18 +165,21 @@ namespace DemoConverter.Controllers
 
             var xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(venueData.Svg);
-
+            string baseName = !string.IsNullOrEmpty(venueData.NameOfArchive)
+            ? venueData.NameOfArchive
+            : "converted";
+            string zipFileName = $"{baseName}_converted";
             // Сохраняем файлы
             await _zipService.SaveUpdatedFilesAsync(venueData, venueData.PlacesList, venueData.SectorsList, xmlDoc);
 
             // Создаём ZIP
             string[] filesToZip = { "Scheme.svg", "Places.txt", "Sectors.txt" };
-            string zipPath = await _zipService.CreateZipAsync(filesToZip, "converted");
+            string zipPath = await _zipService.CreateZipAsync(filesToZip, zipFileName);
 
             if (!System.IO.File.Exists(zipPath))
                 return NotFound("ZIP-файл не найден.");
 
-            return PhysicalFile(zipPath, "application/zip", "converted.zip");
+            return PhysicalFile(zipPath, "application/zip", $"{zipFileName}.zip");
         }
 
 

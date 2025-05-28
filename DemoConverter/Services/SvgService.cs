@@ -462,6 +462,21 @@ namespace DemoConverter.Services
                 }
             }
         }
+        public void AssignUniqueIds(XmlDocument xDoc)
+        {
+            int counter = 1;
+            XmlNodeList allNodes = xDoc.GetElementsByTagName("*");
+
+            foreach (XmlNode node in allNodes)
+            {
+                if (node.Attributes != null && node.Attributes["id"] == null)
+                {
+                    XmlAttribute idAttr = xDoc.CreateAttribute("id");
+                    idAttr.Value = $"auto-id-{counter++}";
+                    node.Attributes.Append(idAttr);
+                }
+            }
+        }
 
         // Редактирование, чтобы избавиться от лишних вызовов обработки текстовых доков 
         public void EditPlaces(XmlDocument xDoc, double placeMarginGorizontal, double placeMarginVertical, double placeSizeWidth, double placeSizeHeight, double cornerRadius, bool rectFill, double fontSize, int fontWeigth)
@@ -503,7 +518,11 @@ namespace DemoConverter.Services
                     {
                         SetAttributeValue(rectNode, "fill", "#A4E57A");
                     }
-                    XmlNode parentNode = rectNode.ParentNode;
+                    else
+                    {
+                        rectNode.Attributes.RemoveNamedItem("fill");
+                    }
+                        XmlNode parentNode = rectNode.ParentNode;
                     if (parentNode == null) continue;
 
                     XmlNode textNode = parentNode.SelectSingleNode(".//ns:text", namespaceManager);
@@ -513,14 +532,7 @@ namespace DemoConverter.Services
                     int length = text.Length;
                     if (textNode.Attributes != null)
                     {
-                        if (length >= 3)
-                        {
-                            SetAttributeValue(textNode, "font-weight", (fontWeigth + 100).ToString(CultureInfo.InvariantCulture));
-                        }
-                        else
-                        {
-                            SetAttributeValue(textNode, "font-weight", fontWeigth.ToString(CultureInfo.InvariantCulture));
-                        }
+                        SetAttributeValue(textNode, "font-weight", fontWeigth.ToString(CultureInfo.InvariantCulture));
                         SetAttributeValue(textNode, "text-anchor", "middle");
                         SetAttributeValue(textNode, "font-size", $"{fontSize.ToString(CultureInfo.InvariantCulture)}px");
                         SetAttributeValue(textNode, "x", centerX.ToString("F6", CultureInfo.InvariantCulture));
@@ -537,37 +549,55 @@ namespace DemoConverter.Services
         // Сдвиги отдельных элементов
         public void MoveElement(XmlDocument xDoc, string elementId, double dx, double dy)
         {
-            XmlNamespaceManager namespaceManager = new XmlNamespaceManager(xDoc.NameTable);
-            namespaceManager.AddNamespace("ns", "http://www.w3.org/2000/svg");
+            if (string.IsNullOrEmpty(elementId))
+            {
+                Console.WriteLine("Не передан id элемента для сдвига.");
+                return;
+            }
+
+            var nsmgr = new XmlNamespaceManager(xDoc.NameTable);
+            nsmgr.AddNamespace("ns", "http://www.w3.org/2000/svg");
 
             // Ищем элемент по id
-            var node = xDoc.SelectSingleNode($"//*[@id='{elementId}']", namespaceManager);
-            if (node == null) return;
+            var node = xDoc.SelectSingleNode($"//*[@id='{elementId}']", nsmgr);
+            if (node == null)
+            {
+                Console.WriteLine($"Элемент с id '{elementId}' не найден.");
+                return;
+            }
 
-            // Сдвигаем координаты для rect, circle, text и т.д.
-            if (node.Name == "rect" || node.Name == "image")
+            try
             {
-                double x = GetAttributeValue(node, "x");
-                double y = GetAttributeValue(node, "y");
-                SetAttributeValue(node, "x", (x + dx).ToString("F3", CultureInfo.InvariantCulture));
-                SetAttributeValue(node, "y", (y + dy).ToString("F3", CultureInfo.InvariantCulture));
+                // Сдвигаем координаты для rect, image, circle, text и т.д.
+                if (node.Name == "rect" || node.Name == "image")
+                {
+                    double x = GetAttributeValue(node, "x");
+                    double y = GetAttributeValue(node, "y");
+                    SetAttributeValue(node, "x", (x + dx).ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(node, "y", (y + dy).ToString("F3", CultureInfo.InvariantCulture));
+                }
+                else if (node.Name == "circle")
+                {
+                    double cx = GetAttributeValue(node, "cx");
+                    double cy = GetAttributeValue(node, "cy");
+                    SetAttributeValue(node, "cx", (cx + dx).ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(node, "cy", (cy + dy).ToString("F3", CultureInfo.InvariantCulture));
+                }
+                else if (node.Name == "text")
+                {
+                    double x = GetAttributeValue(node, "x");
+                    double y = GetAttributeValue(node, "y");
+                    SetAttributeValue(node, "x", (x + dx).ToString("F3", CultureInfo.InvariantCulture));
+                    SetAttributeValue(node, "y", (y + dy).ToString("F3", CultureInfo.InvariantCulture));
+                }
+                // Можно добавить обработку других типов элементов при необходимости
             }
-            else if (node.Name == "circle")
+            catch (Exception ex)
             {
-                double cx = GetAttributeValue(node, "cx");
-                double cy = GetAttributeValue(node, "cy");
-                SetAttributeValue(node, "cx", (cx + dx).ToString("F3", CultureInfo.InvariantCulture));
-                SetAttributeValue(node, "cy", (cy + dy).ToString("F3", CultureInfo.InvariantCulture));
+                Console.WriteLine($"Ошибка при перемещении элемента: {ex.Message}");
             }
-            else if (node.Name == "text")
-            {
-                double x = GetAttributeValue(node, "x");
-                double y = GetAttributeValue(node, "y");
-                SetAttributeValue(node, "x", (x + dx).ToString("F3", CultureInfo.InvariantCulture));
-                SetAttributeValue(node, "y", (y + dy).ToString("F3", CultureInfo.InvariantCulture));
-            }
-            // Можно добавить обработку других типов элементов при необходимости
         }
+
         // удаление элемента, выбранного на фронте
         public void DeleteXmlElement(XmlDocument xDoc, string elementName)
         {
@@ -612,7 +642,7 @@ namespace DemoConverter.Services
                 }
             }
         }
-
+        // Метод добавления id надписям и прочему, для удобной работы сдвигов отдельных элементов
         // Метод объединения двух <text> в один
         private void MergeTextNodes(XmlNode firstTextNode, XmlNode secondTextNode)
         {

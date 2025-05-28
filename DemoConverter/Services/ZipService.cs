@@ -66,7 +66,8 @@ namespace DemoConverter.Services
                         PlacesRaw = placesText,
                         SectorsRaw = sectorsText,
                         PlacesList = GetPlacesFromText(placesText),
-                        SectorsList = GetSectorsFromText(sectorsText)
+                        SectorsList = GetSectorsFromText(sectorsText),
+                        NameOfArchive = Path.GetFileNameWithoutExtension(zipFile.FileName)
                     };
 
                     return venueData;

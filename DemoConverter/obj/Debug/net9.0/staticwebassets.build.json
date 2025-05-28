@@ -1,1 +1,1145 @@
-{"Version":1,"Hash":"/RkQgDeYBUJYj8WRNCLklAxJpZoLQ5KN2v7067BR/GE=","Source":"DemoConverter","BasePath":"_content/DemoConverter","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"DemoConverter\\wwwroot","Source":"DemoConverter","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\","BasePath":"_content/DemoConverter","Pattern":"**"}],"Assets":[{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ddk4y2k5up.gz","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/Places#[.{fingerprint=ddk4y2k5up}]?.txt.gz","AssetKind":"All","AssetMode":"All","AssetRole":"Alternative","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt","AssetTraitName":"Content-Encoding","AssetTraitValue":"gzip","Fingerprint":"7dt7xrl1qr","Integrity":"ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt","FileLength":813,"LastWriteTime":"2025-05-22T08:01:07+00:00"},{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-h1j1j86nfh.gz","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/Sectors#[.{fingerprint=h1j1j86nfh}]?.txt.gz","AssetKind":"All","AssetMode":"All","AssetRole":"Alternative","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt","AssetTraitName":"Content-Encoding","AssetTraitValue":"gzip","Fingerprint":"70mn4qt0dx","Integrity":"2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt","FileLength":41,"LastWriteTime":"2025-05-22T08:01:07+00:00"},{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-0uhnqgguuv.gz","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/Scheme#[.{fingerprint=0uhnqgguuv}]?.svg.gz","AssetKind":"All","AssetMode":"All","AssetRole":"Alternative","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg","AssetTraitName":"Content-Encoding","AssetTraitValue":"gzip","Fingerprint":"6ilyfbl6zi","Integrity":"XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg","FileLength":9662,"LastWriteTime":"2025-05-22T08:01:07+00:00"},{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/converted#[.{fingerprint}]?.zip","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"2ipcajxmky","Integrity":"GhIa3vekzp5+RTuWdlxdWLwr6jopZa6TTHtG4IiZJc0=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\files\\converted\\converted.zip","FileLength":10772,"LastWriteTime":"2025-05-22T07:53:16+00:00"},{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/Places#[.{fingerprint}]?.txt","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"ddk4y2k5up","Integrity":"35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\files\\converted\\Places.txt","FileLength":3553,"LastWriteTime":"2025-05-22T07:53:16+00:00"},{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/Scheme#[.{fingerprint}]?.svg","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"0uhnqgguuv","Integrity":"CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\files\\converted\\Scheme.svg","FileLength":173801,"LastWriteTime":"2025-05-22T07:53:16+00:00"},{"Identity":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt","SourceId":"DemoConverter","SourceType":"Discovered","ContentRoot":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\","BasePath":"_content/DemoConverter","RelativePath":"files/converted/Sectors#[.{fingerprint}]?.txt","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"h1j1j86nfh","Integrity":"W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\files\\converted\\Sectors.txt","FileLength":20,"LastWriteTime":"2025-05-22T07:53:16+00:00"}],"Endpoints":[{"Route":"files/converted/converted.2ipcajxmky.zip","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"10772"},{"Name":"Content-Type","Value":"application/x-zip-compressed"},{"Name":"ETag","Value":"\"GhIa3vekzp5+RTuWdlxdWLwr6jopZa6TTHtG4IiZJc0=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"2ipcajxmky"},{"Name":"label","Value":"files/converted/converted.zip"},{"Name":"integrity","Value":"sha256-GhIa3vekzp5+RTuWdlxdWLwr6jopZa6TTHtG4IiZJc0="}]},{"Route":"files/converted/converted.zip","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"10772"},{"Name":"Content-Type","Value":"application/x-zip-compressed"},{"Name":"ETag","Value":"\"GhIa3vekzp5+RTuWdlxdWLwr6jopZa6TTHtG4IiZJc0=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-GhIa3vekzp5+RTuWdlxdWLwr6jopZa6TTHtG4IiZJc0="}]},{"Route":"files/converted/Places.ddk4y2k5up.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ddk4y2k5up.gz","Selectors":[{"Name":"Content-Encoding","Value":"gzip","Quality":"0.001228501229"}],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"813"},{"Name":"ETag","Value":"\"ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"W/\"35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ=\""}],"EndpointProperties":[{"Name":"fingerprint","Value":"ddk4y2k5up"},{"Name":"label","Value":"files/converted/Places.txt"},{"Name":"integrity","Value":"sha256-35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ="}]},{"Route":"files/converted/Places.ddk4y2k5up.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3553"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"ddk4y2k5up"},{"Name":"label","Value":"files/converted/Places.txt"},{"Name":"integrity","Value":"sha256-35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ="}]},{"Route":"files/converted/Places.ddk4y2k5up.txt.gz","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ddk4y2k5up.gz","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"813"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"}],"EndpointProperties":[{"Name":"fingerprint","Value":"ddk4y2k5up"},{"Name":"label","Value":"files/converted/Places.txt.gz"},{"Name":"integrity","Value":"sha256-ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o="}]},{"Route":"files/converted/Places.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ddk4y2k5up.gz","Selectors":[{"Name":"Content-Encoding","Value":"gzip","Quality":"0.001228501229"}],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"813"},{"Name":"ETag","Value":"\"ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"W/\"35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ=\""}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ="}]},{"Route":"files/converted/Places.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3553"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-35V5pH9WmUGd2AmnOdSMBnPAoVYRM3m3kvhgdbA8PcQ="}]},{"Route":"files/converted/Places.txt.gz","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-ddk4y2k5up.gz","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"813"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-ay1jEmj7wTQ7vtlmle7NKF6ho/y52hsfg5y4FT9dt7o="}]},{"Route":"files/converted/Scheme.0uhnqgguuv.svg","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-0uhnqgguuv.gz","Selectors":[{"Name":"Content-Encoding","Value":"gzip","Quality":"0.000103487530"}],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9662"},{"Name":"ETag","Value":"\"XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"W/\"CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ=\""}],"EndpointProperties":[{"Name":"fingerprint","Value":"0uhnqgguuv"},{"Name":"label","Value":"files/converted/Scheme.svg"},{"Name":"integrity","Value":"sha256-CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ="}]},{"Route":"files/converted/Scheme.0uhnqgguuv.svg","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"173801"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"\"CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"0uhnqgguuv"},{"Name":"label","Value":"files/converted/Scheme.svg"},{"Name":"integrity","Value":"sha256-CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ="}]},{"Route":"files/converted/Scheme.0uhnqgguuv.svg.gz","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-0uhnqgguuv.gz","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9662"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"\"XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"}],"EndpointProperties":[{"Name":"fingerprint","Value":"0uhnqgguuv"},{"Name":"label","Value":"files/converted/Scheme.svg.gz"},{"Name":"integrity","Value":"sha256-XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco="}]},{"Route":"files/converted/Scheme.svg","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-0uhnqgguuv.gz","Selectors":[{"Name":"Content-Encoding","Value":"gzip","Quality":"0.000103487530"}],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9662"},{"Name":"ETag","Value":"\"XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"W/\"CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ=\""}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ="}]},{"Route":"files/converted/Scheme.svg","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"173801"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"\"CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-CNTr8oYgqQ01UiEBWzuuSdtQFOgLbzrsWJGZqdcVKQQ="}]},{"Route":"files/converted/Scheme.svg.gz","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-0uhnqgguuv.gz","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9662"},{"Name":"Content-Type","Value":"image/svg+xml"},{"Name":"ETag","Value":"\"XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-XuwKfpKPaXNpOictFyGt1KWBWeLYjAIXqO2nSd0Wlco="}]},{"Route":"files/converted/Sectors.h1j1j86nfh.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-h1j1j86nfh.gz","Selectors":[{"Name":"Content-Encoding","Value":"gzip","Quality":"0.023809523810"}],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"41"},{"Name":"ETag","Value":"\"2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"W/\"W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg=\""}],"EndpointProperties":[{"Name":"fingerprint","Value":"h1j1j86nfh"},{"Name":"label","Value":"files/converted/Sectors.txt"},{"Name":"integrity","Value":"sha256-W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg="}]},{"Route":"files/converted/Sectors.h1j1j86nfh.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"20"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"h1j1j86nfh"},{"Name":"label","Value":"files/converted/Sectors.txt"},{"Name":"integrity","Value":"sha256-W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg="}]},{"Route":"files/converted/Sectors.h1j1j86nfh.txt.gz","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-h1j1j86nfh.gz","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"41"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"}],"EndpointProperties":[{"Name":"fingerprint","Value":"h1j1j86nfh"},{"Name":"label","Value":"files/converted/Sectors.txt.gz"},{"Name":"integrity","Value":"sha256-2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc="}]},{"Route":"files/converted/Sectors.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-h1j1j86nfh.gz","Selectors":[{"Name":"Content-Encoding","Value":"gzip","Quality":"0.023809523810"}],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"41"},{"Name":"ETag","Value":"\"2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"W/\"W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg=\""}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg="}]},{"Route":"files/converted/Sectors.txt","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"20"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 07:53:16 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-W7ZN1lgQH96wvn9b40DF6tHEtKrQ5TvhVdE/1D0wieg="}]},{"Route":"files/converted/Sectors.txt.gz","AssetFile":"C:\\Users\\mamko\\OneDrive\\Документы\\VSCODE\\sneakers\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-h1j1j86nfh.gz","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"41"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\"2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc=\""},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 08:01:07 GMT"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Encoding","Value":"gzip"},{"Name":"Vary","Value":"Content-Encoding"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-2TSu4nV7uF6sbYRzFxIgHw0r97jofNniSu+9V/FPKwc="}]}]}
+{
+  "Version": 1,
+  "Hash": "NYBGrK+JKPU7D0IXEI6zJQKGWJPHJnWjrpIzD3wpnNw=",
+  "Source": "DemoConverter",
+  "BasePath": "_content/DemoConverter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoConverter\\wwwroot",
+      "Source": "DemoConverter",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-5ipweew5fc.gz",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Places#[.{fingerprint=5ipweew5fc}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt"
+    },
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-5ipweew5fc.gz",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Sectors#[.{fingerprint=5ipweew5fc}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt"
+    },
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-4a57g810sr.gz",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Scheme#[.{fingerprint=4a57g810sr}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m6uojaqyrc",
+      "Integrity": "MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg"
+    },
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/converted#[.{fingerprint}]?.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "odxfn1zd7i",
+      "Integrity": "RB7F6qtRYle+kRIF4ou9jO46VDC2e/Bct6FSAbanWMI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\converted.zip"
+    },
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Places#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\Places.txt"
+    },
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Scheme#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4a57g810sr",
+      "Integrity": "hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\Scheme.svg"
+    },
+    {
+      "Identity": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "SourceId": "DemoConverter",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\",
+      "BasePath": "_content/DemoConverter",
+      "RelativePath": "files/converted/Sectors#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\converted\\Sectors.txt"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "files/converted/converted.odxfn1zd7i.zip",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RB7F6qtRYle+kRIF4ou9jO46VDC2e/Bct6FSAbanWMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "odxfn1zd7i"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/converted.zip"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RB7F6qtRYle+kRIF4ou9jO46VDC2e/Bct6FSAbanWMI="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/converted.zip",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\converted.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RB7F6qtRYle+kRIF4ou9jO46VDC2e/Bct6FSAbanWMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RB7F6qtRYle+kRIF4ou9jO46VDC2e/Bct6FSAbanWMI="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.5ipweew5fc.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Places.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.5ipweew5fc.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Places.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.5ipweew5fc.txt.gz",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Places.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Places.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Places.txt.gz",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\66x19peg9d-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.4a57g810sr.svg",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-4a57g810sr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025262732"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4a57g810sr"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Scheme.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.4a57g810sr.svg",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4a57g810sr"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Scheme.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.4a57g810sr.svg.gz",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-4a57g810sr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4a57g810sr"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Scheme.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.svg",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-4a57g810sr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025262732"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.svg",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Scheme.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKnUUcg4DMnmDEZTcFzSKLagzqKNyNJeY5sZp95smxk="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Scheme.svg.gz",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\iv3tsr8ppd-4a57g810sr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MtaFc3ERgTK+XtOsBYbRosiephXD1RKIWz0xQUFTVBc="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.5ipweew5fc.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Sectors.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.5ipweew5fc.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Sectors.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.5ipweew5fc.txt.gz",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/converted/Sectors.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.txt",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\wwwroot\\files\\converted\\Sectors.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/converted/Sectors.txt.gz",
+      "AssetFile": "F:\\GORBILET\\DemoConverter\\DemoConverter\\obj\\Debug\\net9.0\\compressed\\ig3x38cius-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 10:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
+}

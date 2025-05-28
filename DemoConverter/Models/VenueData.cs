@@ -1,4 +1,6 @@
-﻿namespace DemoConverter.Models
+﻿using System.Text.Json.Serialization;
+
+namespace DemoConverter.Models
 {
     public class VenueData
     {
@@ -7,5 +9,6 @@
         public string SectorsRaw { get; set; }
         public List<SbPlace> PlacesList { get; set; }
         public List<SbSector> SectorsList { get; set; }
+        public string NameOfArchive { get; set; }
     }
 }

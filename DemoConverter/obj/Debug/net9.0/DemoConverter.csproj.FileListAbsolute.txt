@@ -66,10 +66,10 @@ F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\DemoConverter.genruntim
 F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\ref\DemoConverter.dll
 F:\GORBILET\DemoConverter\DemoConverter\bin\Debug\net9.0\CsvHelper.dll
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\bin\Debug\net9.0\CsvHelper.dll
-F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\66x19peg9d-ddk4y2k5up.gz
-F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\ig3x38cius-h1j1j86nfh.gz
-F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\iv3tsr8ppd-0uhnqgguuv.gz
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\66x19peg9d-ddk4y2k5up.gz
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\iv3tsr8ppd-0uhnqgguuv.gz
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\ig3x38cius-h1j1j86nfh.gz
 C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\obj\Debug\net9.0\staticwebassets.build.json.cache
+F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\66x19peg9d-5ipweew5fc.gz
+F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\iv3tsr8ppd-4a57g810sr.gz
+F:\GORBILET\DemoConverter\DemoConverter\obj\Debug\net9.0\compressed\ig3x38cius-5ipweew5fc.gz

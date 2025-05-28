@@ -1,7 +1,7 @@
+F:\GORBILET\DemoConverter\DemoConverter\wwwroot\files\converted\Places.txt
+F:\GORBILET\DemoConverter\DemoConverter\wwwroot\files\converted\Sectors.txt
+F:\GORBILET\DemoConverter\DemoConverter\wwwroot\files\converted\Scheme.svg
 wwwroot\files\converted\converted.zip
 wwwroot\files\converted\Places.txt
 wwwroot\files\converted\Scheme.svg
 wwwroot\files\converted\Sectors.txt
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\wwwroot\files\converted\Places.txt
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\wwwroot\files\converted\Scheme.svg
-C:\Users\mamko\OneDrive\Документы\VSCODE\sneakers\DemoConverter\DemoConverter\wwwroot\files\converted\Sectors.txt
